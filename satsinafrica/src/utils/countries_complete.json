@@ -1,0 +1,786 @@
+[
+    {
+        "country": "Algeria",
+        "flag": "/country_flags/Algeria DZ.png",
+        "satellites": 7,
+        "first_launch_year": "2002",
+        "satellites_list": [
+            {
+                "name": "AlSat-1",
+                "launch_date": "2002-11-28",
+                "status": "Inactive"
+            },
+            {
+                "name": "AlSat-2A",
+                "launch_date": "2010-07-12",
+                "status": "Active"
+            },
+            {
+                "name": "AlSat-1B",
+                "launch_date": "2016-09-26",
+                "status": "Active"
+            },
+            {
+                "name": "AlSat-2B",
+                "launch_date": "2016-09-26",
+                "status": "Active"
+            },
+            {
+                "name": "Alcomsat-1",
+                "launch_date": "2017-12-10",
+                "status": "Active"
+            }
+        ],
+        "space_agency": {
+            "name": "Algerian Space Agency (ASAL)",
+            "creation_date": "2002",
+            "budget": "$10 million"
+        },
+        "space_projects": [
+            {
+                "project_name": "AlSat-NextGen",
+                "status": "In progress"
+            }
+        ]
+    },
+    {
+        "country": "Angola",
+        "flag": "/country_flags/Angola AO.png",
+        "satellites": 2,
+        "first_launch_year": "2017",
+        "satellites_list": [
+            {
+                "name": "AngoSat-1",
+                "launch_date": "2017-12-26",
+                "status": "Inactive"
+            },
+            {
+                "name": "AngoSat-2",
+                "launch_date": "2022-10-12"
+            }
+        ],
+        "space_agency": {
+            "name": "National Space Program Management Office",
+            "creation_date": "2013",
+            "budget": "$20 million"
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Benin",
+        "flag": "/country_flags/Benin BJ.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Botswana",
+        "flag": "/country_flags/Botswana BW.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Burkina Faso",
+        "flag": "/country_flags/Burkina Faso.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Burundi",
+        "flag": "/country_flags/Burundi.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Cabo Verde",
+        "flag": "cabo_verde.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Cameroon",
+        "flag": "/country_flags/Cameroon CM.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Central African Republic",
+        "flag": "central_african_republic.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Chad",
+        "flag": "chad.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Comoros",
+        "flag": "comoros.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Congo",
+        "flag": "congo.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Congo (DR)",
+        "flag": "congo_(dr).png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Djibouti",
+        "flag": "djibouti.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },    
+    {
+        "country": "Egypt",
+        "flag": "egypt.png",
+        "satellites": 10,
+        "first_launch_year": "1998",
+        "satellites_list": [
+            {
+                "name": "NileSat 101",
+                "launch_date": "1998-04-28",
+                "status": "Inactive"
+            },
+            {
+                "name": "NileSat 102",
+                "launch_date": "2000-08-17",
+                "status": "Inactive"
+            },
+            {
+                "name": "EgyptSat 1",
+                "launch_date": "2007-04-17",
+                "status": "Inactive"
+            },
+            {
+                "name": "EgyptSat 2",
+                "launch_date": "2014-04-16",
+                "status": "Inactive"
+            },
+            {
+                "name": "EgyptSat-A",
+                "launch_date": "2019-02-21",
+                "status": "Active"
+            }
+        ],
+        "space_agency": {
+            "name": "Egyptian Space Agency",
+            "creation_date": "2019",
+            "budget": "$40 million"
+        },
+        "space_projects": [
+            {
+                "project_name": "EgyptSat New Satellites",
+                "status": "In progress"
+            }
+        ]
+    },
+    {
+        "country": "Equatorial Guinea",
+        "flag": "equatorial_guinea.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Eritrea",
+        "flag": "eritrea.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Eswatini",
+        "flag": "eswatini.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Ethiopia",
+        "flag": "ethiopia.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Gabon",
+        "flag": "gabon.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Gambia",
+        "flag": "gambia.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Ghana",
+        "flag": "ghana.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Guinea",
+        "flag": "guinea.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Guinea-Bissau",
+        "flag": "guinea-bissau.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Ivory Coast",
+        "flag": "ivory_coast.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Kenya",
+        "flag": "kenya.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Lesotho",
+        "flag": "lesotho.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Liberia",
+        "flag": "liberia.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Madagascar",
+        "flag": "madagascar.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Malawi",
+        "flag": "malawi.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Mali",
+        "flag": "mali.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Mauritania",
+        "flag": "mauritania.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Mauritius",
+        "flag": "mauritius.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Mozambique",
+        "flag": "mozambique.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Namibia",
+        "flag": "namibia.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Niger",
+        "flag": "niger.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Nigeria",
+        "flag": "nigeria.png",
+        "satellites": 7,
+        "first_launch_year": "2003",
+        "satellites_list": [
+            {
+                "name": "NigeriaSat-1",
+                "launch_date": "2003-09-27",
+                "status": "Inactive"
+            },
+            {
+                "name": "NigeriaSat-2",
+                "launch_date": "2011-08-17",
+                "status": "Active"
+            },
+            {
+                "name": "NigeriaSat-X",
+                "launch_date": "2011-08-17",
+                "status": "Active"
+            },
+            {
+                "name": "NigComSat-1R",
+                "launch_date": "2011-12-19",
+                "status": "Active"
+            }
+        ],
+        "space_agency": {
+            "name": "National Space Research and Development Agency (NASRDA)",
+            "creation_date": "1999",
+            "budget": "$50 million"
+        },
+        "space_projects": [
+            {
+                "project_name": "Communication Satellite Expansion",
+                "status": "In progress"
+            }
+        ]
+    },
+    {
+        "country": "Rwanda",
+        "flag": "rwanda.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Sao Tome and Principe",
+        "flag": "sao_tome_and_principe.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Senegal",
+        "flag": "senegal.png",
+        "satellites": 1,
+        "first_launch_year": "2024",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "Senegalese Space Agency",
+            "creation_date": "2023",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Seychelles",
+        "flag": "seychelles.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Sierra Leone",
+        "flag": "sierra_leone.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Somalia",
+        "flag": "somalia.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "South Africa",
+        "flag": "south_africa.png",
+        "satellites": 12,
+        "first_launch_year": "1999",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "South African Space Agency (SANSA)",
+            "creation_date": "2010",
+            "budget": "$12 million"
+        },
+        "space_projects": [
+            {
+                "name": "SUNSAT",
+                "launch_date": "1999-02-23"
+            },
+            {
+                "name": "SumbandilaSat",
+                "launch_date": "2009-09-17"
+            }
+        ]
+    },
+    {
+        "country": "South Sudan",
+        "flag": "south_sudan.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Sudan",
+        "flag": "sudan.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Tanzania",
+        "flag": "tanzania.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Togo",
+        "flag": "togo.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Tunisia",
+        "flag": "tunisia.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Uganda",
+        "flag": "uganda.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Zambia",
+        "flag": "zambia.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Zimbabwe",
+        "flag": "zimbabwe.png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    }
+    
+]
