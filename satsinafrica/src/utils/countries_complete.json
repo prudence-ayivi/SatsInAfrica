@@ -1,8 +1,8 @@
 [
     {
         "country": "Algeria",
-        "flag": "/country_flags/Algeria DZ.png",
-        "satellites": 7,
+        "flag": "/country_flags/Algeria (DZ).png",
+        "satellites": 6,
         "first_launch_year": "2002",
         "satellites_list": [
             {
@@ -45,7 +45,7 @@
     },
     {
         "country": "Angola",
-        "flag": "/country_flags/Angola AO.png",
+        "flag": "/country_flags/Angola (AO).png",
         "satellites": 2,
         "first_launch_year": "2017",
         "satellites_list": [
@@ -68,7 +68,7 @@
     },
     {
         "country": "Benin",
-        "flag": "/country_flags/Benin BJ.png",
+        "flag": "/country_flags/Benin (BJ).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -81,7 +81,7 @@
     },
     {
         "country": "Botswana",
-        "flag": "/country_flags/Botswana BW.png",
+        "flag": "/country_flags/Botswana (BW).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -90,7 +90,12 @@
             "creation_date": "",
             "budget": ""
         },
-        "space_projects": []
+        "space_projects": [
+            {
+                "project_name": "AlSat-NextGen",
+                "status": "In progress"
+            }
+        ]
     },
     {
         "country": "Burkina Faso",
@@ -107,7 +112,7 @@
     },
     {
         "country": "Burundi",
-        "flag": "/country_flags/Burundi.png",
+        "flag": "/country_flags/Burundi (BI).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -120,7 +125,7 @@
     },
     {
         "country": "Cabo Verde",
-        "flag": "cabo_verde.png",
+        "flag": "/country_flags/Cabo Verde (CV).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -146,7 +151,7 @@
     },
     {
         "country": "Central African Republic",
-        "flag": "central_african_republic.png",
+        "flag": "/country_flags/Central African Republic (CF).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -159,7 +164,7 @@
     },
     {
         "country": "Chad",
-        "flag": "chad.png",
+        "flag": "/country_flags/Chad (TD).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -172,20 +177,7 @@
     },
     {
         "country": "Comoros",
-        "flag": "comoros.png",
-        "satellites": 0,
-        "first_launch_year": "",
-        "satellites_list": [],
-        "space_agency": {
-            "name": "",
-            "creation_date": "",
-            "budget": ""
-        },
-        "space_projects": []
-    },
-    {
-        "country": "Congo",
-        "flag": "congo.png",
+        "flag": "/country_flags/Comoros (KM).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -198,20 +190,7 @@
     },
     {
         "country": "Congo (DR)",
-        "flag": "congo_(dr).png",
-        "satellites": 0,
-        "first_launch_year": "",
-        "satellites_list": [],
-        "space_agency": {
-            "name": "",
-            "creation_date": "",
-            "budget": ""
-        },
-        "space_projects": []
-    },
-    {
-        "country": "Djibouti",
-        "flag": "djibouti.png",
+        "flag": "/country_flags/Democratic Republic of the Congo (CD).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -223,9 +202,22 @@
         "space_projects": []
     },    
     {
+        "country": "Djibouti",
+        "flag": "/country_flags/Djibouti (DJ).png",
+        "satellites": 3,
+        "first_launch_year": "2023",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },    
+    {
         "country": "Egypt",
-        "flag": "egypt.png",
-        "satellites": 10,
+        "flag": "/country_flags/Egypt (EG).png",
+        "satellites": 13,
         "first_launch_year": "1998",
         "satellites_list": [
             {
@@ -255,7 +247,7 @@
             }
         ],
         "space_agency": {
-            "name": "Egyptian Space Agency",
+            "name": "Egyptian Space Agency (EgSA)",
             "creation_date": "2019",
             "budget": "$40 million"
         },
@@ -268,7 +260,7 @@
     },
     {
         "country": "Equatorial Guinea",
-        "flag": "equatorial_guinea.png",
+        "flag": "/country_flags/Equatorial Guinea (GQ).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -281,7 +273,7 @@
     },
     {
         "country": "Eritrea",
-        "flag": "eritrea.png",
+        "flag": "/country_flags/Eritrea (ER).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -294,7 +286,7 @@
     },
     {
         "country": "Eswatini",
-        "flag": "eswatini.png",
+        "flag": "/country_flags/Eswatini (SZ).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -307,9 +299,9 @@
     },
     {
         "country": "Ethiopia",
-        "flag": "ethiopia.png",
-        "satellites": 0,
-        "first_launch_year": "",
+        "flag": "/country_flags/Ethiopia (ET).png",
+        "satellites": 2,
+        "first_launch_year": "2019",
         "satellites_list": [],
         "space_agency": {
             "name": "",
@@ -320,7 +312,7 @@
     },
     {
         "country": "Gabon",
-        "flag": "gabon.png",
+        "flag": "/country_flags/Gabon (GA).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -333,7 +325,7 @@
     },
     {
         "country": "Gambia",
-        "flag": "gambia.png",
+        "flag": "/country_flags/Gambia (GM).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -346,9 +338,9 @@
     },
     {
         "country": "Ghana",
-        "flag": "ghana.png",
-        "satellites": 0,
-        "first_launch_year": "",
+        "flag": "/country_flags/Ghana (GH).png",
+        "satellites": 1,
+        "first_launch_year": "2017",
         "satellites_list": [],
         "space_agency": {
             "name": "",
@@ -359,7 +351,7 @@
     },
     {
         "country": "Guinea",
-        "flag": "guinea.png",
+        "flag": "/country_flags/Guinea (GN).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -372,7 +364,7 @@
     },
     {
         "country": "Guinea-Bissau",
-        "flag": "guinea-bissau.png",
+        "flag": "/country_flags/Guinea-Bissau (GW).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -384,8 +376,8 @@
         "space_projects": []
     },
     {
-        "country": "Ivory Coast",
-        "flag": "ivory_coast.png",
+        "country": "Côte d'Ivoire",
+        "flag": "/country_flags/Côte d'Ivoire (CI).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -394,16 +386,21 @@
             "creation_date": "",
             "budget": ""
         },
-        "space_projects": []
+        "space_projects": [
+            {
+                "project_name": "AlSat-NextGen",
+                "status": "In progress"
+            }
+        ]
     },
     {
         "country": "Kenya",
-        "flag": "kenya.png",
-        "satellites": 0,
-        "first_launch_year": "",
+        "flag": "/country_flags/Kenya (KE).png",
+        "satellites": 3,
+        "first_launch_year": "2018",
         "satellites_list": [],
         "space_agency": {
-            "name": "",
+            "name": "Kenya Space Agence (KSA)",
             "creation_date": "",
             "budget": ""
         },
@@ -411,7 +408,7 @@
     },
     {
         "country": "Lesotho",
-        "flag": "lesotho.png",
+        "flag": "/country_flags/Lesotho (LS).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -424,7 +421,20 @@
     },
     {
         "country": "Liberia",
-        "flag": "liberia.png",
+        "flag": "/country_flags/Liberia (LR).png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Libya",
+        "flag": "/country_flags/Libya (LY).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -437,7 +447,7 @@
     },
     {
         "country": "Madagascar",
-        "flag": "madagascar.png",
+        "flag": "/country_flags/Madagascar (MG).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -450,7 +460,7 @@
     },
     {
         "country": "Malawi",
-        "flag": "malawi.png",
+        "flag": "/country_flags/Malawi (MW).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -463,7 +473,7 @@
     },
     {
         "country": "Mali",
-        "flag": "mali.png",
+        "flag": "/country_flags/Mali (ML).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -476,7 +486,7 @@
     },
     {
         "country": "Mauritania",
-        "flag": "mauritania.png",
+        "flag": "/country_flags/Mauritania (MR).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -489,9 +499,22 @@
     },
     {
         "country": "Mauritius",
-        "flag": "mauritius.png",
-        "satellites": 0,
-        "first_launch_year": "",
+        "flag": "/country_flags/Mauritius (MU).png",
+        "satellites": 1,
+        "first_launch_year": "2021",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
+        "country": "Morocco",
+        "flag": "/country_flags/Morocco (MA).png",
+        "satellites": 3,
+        "first_launch_year": "2011",
         "satellites_list": [],
         "space_agency": {
             "name": "",
@@ -502,7 +525,7 @@
     },
     {
         "country": "Mozambique",
-        "flag": "mozambique.png",
+        "flag": "/country_flags/Mozambique (MZ).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -515,7 +538,7 @@
     },
     {
         "country": "Namibia",
-        "flag": "namibia.png",
+        "flag": "/country_flags/Namibia (NA).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -524,11 +547,16 @@
             "creation_date": "",
             "budget": ""
         },
-        "space_projects": []
+        "space_projects": [
+            {
+                "project_name": "AlSat-NextGen",
+                "status": "In progress"
+            }
+        ]
     },
     {
         "country": "Niger",
-        "flag": "niger.png",
+        "flag": "/country_flags/Niger (NE).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -541,7 +569,7 @@
     },
     {
         "country": "Nigeria",
-        "flag": "nigeria.png",
+        "flag": "/country_flags/Nigeria (NG).png",
         "satellites": 7,
         "first_launch_year": "2003",
         "satellites_list": [
@@ -579,8 +607,8 @@
         ]
     },
     {
-        "country": "Rwanda",
-        "flag": "rwanda.png",
+        "country": "Republic of the Congo",
+        "flag": "/country_flags/Republic of the Congo (CG).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -592,8 +620,21 @@
         "space_projects": []
     },
     {
+        "country": "Rwanda",
+        "flag": "/country_flags/Rwanda (RW).png",
+        "satellites": 2,
+        "first_launch_year": "2019",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "Rwanda Space Agency (RSA)",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": []
+    },
+    {
         "country": "Sao Tome and Principe",
-        "flag": "sao_tome_and_principe.png",
+        "flag": "/country_flags/Sao Tome and Principe (ST).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -606,7 +647,7 @@
     },
     {
         "country": "Senegal",
-        "flag": "senegal.png",
+        "flag": "/country_flags/Senegal (SN).png",
         "satellites": 1,
         "first_launch_year": "2024",
         "satellites_list": [],
@@ -619,7 +660,7 @@
     },
     {
         "country": "Seychelles",
-        "flag": "seychelles.png",
+        "flag": "/country_flags/Seychelles (SC).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -632,7 +673,7 @@
     },
     {
         "country": "Sierra Leone",
-        "flag": "sierra_leone.png",
+        "flag": "/country_flags/Sierra Leone (SL).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -645,7 +686,7 @@
     },
     {
         "country": "Somalia",
-        "flag": "somalia.png",
+        "flag": "/country_flags/Somalia (SO).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -658,8 +699,8 @@
     },
     {
         "country": "South Africa",
-        "flag": "south_africa.png",
-        "satellites": 12,
+        "flag": "/country_flags/South Africa (ZA).png",
+        "satellites": 13,
         "first_launch_year": "1999",
         "satellites_list": [],
         "space_agency": {
@@ -680,7 +721,7 @@
     },
     {
         "country": "South Sudan",
-        "flag": "south_sudan.png",
+        "flag": "/country_flags/South Sudan (SS).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -693,9 +734,9 @@
     },
     {
         "country": "Sudan",
-        "flag": "sudan.png",
-        "satellites": 0,
-        "first_launch_year": "",
+        "flag": "/country_flags/Sudan (SD).png",
+        "satellites": 1,
+        "first_launch_year": "2019",
         "satellites_list": [],
         "space_agency": {
             "name": "",
@@ -706,7 +747,7 @@
     },
     {
         "country": "Tanzania",
-        "flag": "tanzania.png",
+        "flag": "/country_flags/Tanzania (TZ).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -715,11 +756,16 @@
             "creation_date": "",
             "budget": ""
         },
-        "space_projects": []
+        "space_projects": [
+            {
+                "project_name": "AlSat-NextGen",
+                "status": "In progress"
+            }
+        ]
     },
     {
         "country": "Togo",
-        "flag": "togo.png",
+        "flag": "/country_flags/Togo (TG).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -732,9 +778,9 @@
     },
     {
         "country": "Tunisia",
-        "flag": "tunisia.png",
-        "satellites": 0,
-        "first_launch_year": "",
+        "flag": "/country_flags/Tunisia (TN).png",
+        "satellites": 1,
+        "first_launch_year": "2021",
         "satellites_list": [],
         "space_agency": {
             "name": "",
@@ -745,9 +791,9 @@
     },
     {
         "country": "Uganda",
-        "flag": "uganda.png",
-        "satellites": 0,
-        "first_launch_year": "",
+        "flag": "/country_flags/Uganda (UG).png",
+        "satellites": 1,
+        "first_launch_year": "2022",
         "satellites_list": [],
         "space_agency": {
             "name": "",
@@ -758,7 +804,7 @@
     },
     {
         "country": "Zambia",
-        "flag": "zambia.png",
+        "flag": "/country_flags/Zambia (ZM).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -771,9 +817,9 @@
     },
     {
         "country": "Zimbabwe",
-        "flag": "zimbabwe.png",
-        "satellites": 0,
-        "first_launch_year": "",
+        "flag": "/country_flags/Zimbabwe (ZW).png",
+        "satellites": 1,
+        "first_launch_year": "2022",
         "satellites_list": [],
         "space_agency": {
             "name": "",

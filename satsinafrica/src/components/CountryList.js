@@ -54,12 +54,12 @@ const CountryList = ({ countries }) => {
                   <span className="font-semibold font-title">Space Agency</span>
                 </div>
                 <hr className="my-2" />
-                <div className="grid grid-cols-2 gap-4 text-left">
-                  <div className="font-sans">Name :</div>
+                <div className="grid grid-cols-2 gap-4 text-center">
+                  <div className="text-left font-sans">Name :</div>
                   <div className="text-right font-sans">{country.space_agency.name || "N/A"}</div>
-                  <div className="font-sans">Created in :</div>
+                  <div className="text-left font-sans">Created in :</div>
                   <div className="text-right font-sans">{country.space_agency.creation_date || "N/A"}</div>
-                  <div className="font-sans">Annual budget :</div>
+                  <div className="text-left font-sans">Annual budget :</div>
                   <div className="text-right font-sans">{country.space_agency.budget || "N/A"}</div>
                 </div>
               </div>
