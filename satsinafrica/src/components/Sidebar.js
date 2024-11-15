@@ -36,7 +36,6 @@ const Sidebar = () => {
         </div>
         {isOpen && (
           <div className="flex items-center ml-4 w-full">
-            <FaSearch className="text-lg" />
             <input
               type="text"
               className="ml-2 p-2 w-full bg-white rounded-[24px] font-sans border focus:outline-none focus:border-slate-900"

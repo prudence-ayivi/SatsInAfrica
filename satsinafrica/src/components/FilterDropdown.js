@@ -54,7 +54,7 @@ const FilterDropdown = ({
   ].sort((a, b) => a - b);
 
   return (
-    <div className="flex flex-row space-x-2">
+    <div className="flex flex-wrap md:flex-nowrap md:flex-row flex-col space-y-2 md:space-y-0 md:space-x-2">
       {/* Country Filter */}
       <div className="dropdown">
         <button

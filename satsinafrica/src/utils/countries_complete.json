@@ -818,15 +818,26 @@
     {
         "country": "Zimbabwe",
         "flag": "/SatsInAfrica/country_flags/Zimbabwe (ZW).png",
-        "satellites": 1,
+        "satellites": 2,
         "first_launch_year": "2022",
         "satellites_list": [],
         "space_agency": {
-            "name": "",
-            "creation_date": "",
+            "name": " Zimbabwe National Geospatial and Space Agency (ZINGSA)",
+            "creation_date": "2028",
             "budget": ""
         },
-        "space_projects": []
+        "space_projects": [
+            {
+                "name": "ZIMSAT-1",
+                "launch_date": "2021-11-28",
+                "status": "Active"
+            },
+            {
+                "name": "ZIMSAT-2",
+                "launch_date": "2024-11-05",
+                "status": "Active"
+            }            
+        ]
     }
     
 ]

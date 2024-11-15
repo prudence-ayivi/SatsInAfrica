@@ -1,5 +1,5 @@
 import React, { useState, memo } from 'react';
-import MapData from '../../utils/MapData';
+import { MapData } from '../../utils/MapData';
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
 import countryData from '../../utils/countries_complete.json';
 import TooltipContent from './TooltipContent'; 

@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import LandingSection from "./components/LandingSection";
 import MapSection from "./components/MapSection";
-import Footer from './components/Footer';
+import Footer from './components/Footer'; 
+import ChartSection from './components/ChartSection'
 import './App.css';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <div className="App"> 
     <LandingSection scrollToMapSection={scrollToMapSection} />
     <MapSection ref={mapSectionRef} />
-    <LandingSection/>
+    <ChartSection/>
     <Footer/>
 
     </div>

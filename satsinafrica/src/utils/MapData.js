@@ -1,6 +1,4 @@
-import React from 'react'
-
-const MapData = {
+export const MapData = {
     data : {
             "type": "Topology",
             "objects": {
@@ -152722,5 +152720,3 @@ const MapData = {
         
     }
 
-
-export default MapData
