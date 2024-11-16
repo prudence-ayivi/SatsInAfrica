@@ -1,33 +1,102 @@
-import React from 'react';
+import React, { useState } from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
-
+import { HiMenuAlt4, HiX } from "react-icons/hi"; // Icons for menu
 
 const Header = () => {
-  return (
-    <div className="flex flex-row items-center w-full h-[70px] bg-black px-4 py-2 space-x-80">
-    <img src="LOGO.png" className="h-[50px] w-[50px] mr-auto cursor-pointer" alt="logo"/>
-    <div className="self-center">
-      <ul className="flex flex-row text-white space-x-12 mr-auto">
-        <li className="flex flex-row items-center font-sans cursor-pointer">
-          ABOUT 
-          <IoMdArrowDropdown className="text-sm mt-1 ml-2"/>
-        </li>
-        <li className="flex flex-row items-center font-sans cursor-pointer">
-          DATABASE 
-          <IoMdArrowDropdown className="text-sm mt-1 ml-2"/>
-        </li>
-        <li className="flex flex-row items-center font-sans cursor-pointer">
-          TABLES 
-          <IoMdArrowDropdown className="text-sm mt-1 ml-2"/>
-        </li>
-        <li className="flex flex-row items-center font-sans cursor-pointer mr-2">
-          CONTACT 
-          <IoMdArrowDropdown className="text-sm mt-1 ml-2"/>
-        </li>        
-      </ul>
-    </div>
-    </div>
-  )
-}
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-export default Header
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  return (
+    <div className="flex flex-row items-center w-full h-[70px] bg-black px-4 py-2">
+      {/* Logo */}
+      <img
+        src="LOGO.png"
+        className="h-[50px] w-[50px] mr-auto cursor-pointer"
+        alt="logo"
+      />
+
+      {/* Menu Desktop */}
+      <div className="hidden md:flex self-center">
+        <ul className="flex flex-row text-white space-x-12">
+        <li>
+            <a
+              href="#map-section"
+              className="flex flex-row items-center font-sans cursor-pointer"
+            >
+              MAP
+              <IoMdArrowDropdown className="text-sm mt-1 ml-2" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="#chart-section"
+              className="flex flex-row items-center font-sans cursor-pointer"
+            >
+              CHART
+              <IoMdArrowDropdown className="text-sm mt-1 ml-2" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="#about-section"
+              className="flex flex-row items-center font-sans cursor-pointer"
+            >
+              ABOUT
+              <IoMdArrowDropdown className="text-sm mt-1 ml-2" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      {/* Menu Mobile */}
+      <div className="md:hidden flex items-center">
+        {isMenuOpen ? (
+          <HiX
+            className="text-white text-2xl cursor-pointer"
+            onClick={toggleMenu}
+          />
+        ) : (
+          <HiMenuAlt4
+            className="text-white text-2xl cursor-pointer"
+            onClick={toggleMenu}
+          />
+        )}
+      </div>
+
+      {/* Dropdown Menu for Mobile */}
+      {isMenuOpen && (
+        <div className="absolute top-[70px] left-0 w-full bg-black text-white flex flex-col items-center space-y-4 p-4 z-50 md:hidden">
+          <a
+            href="#map-section"
+            className="font-sans flex items-center cursor-pointer"
+            onClick={toggleMenu}
+          >
+            MAP
+            <IoMdArrowDropdown className="text-sm mt-1 ml-2" />
+          </a>
+          <a
+            href="#chart-section"
+            className="font-sans flex items-center cursor-pointer"
+            onClick={toggleMenu}
+          >
+            CHART
+            <IoMdArrowDropdown className="text-sm mt-1 ml-2" />
+          </a>
+          <a
+            href="#about"
+            className="font-sans flex items-center cursor-pointer"
+            onClick={toggleMenu}
+          >
+            ABOUT
+            <IoMdArrowDropdown className="text-sm mt-1 ml-2" />
+          </a>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Header;

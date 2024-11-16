@@ -21,7 +21,7 @@ const CountryList = ({ countries }) => {
           className="country-item bg-white p-4 rounded shadow my-2 cursor-pointer"
           onClick={() => toggleCountryInfo(country)}
         >
-          {/* Affichage préliminaire ou détaillé selon le pays sélectionné */}
+          {/* First country display */}
           {selectedCountry === country ? (
             <div className="country-info flex flex-col items-center">
               {/* En-tête cliquable pour revenir à l'affichage initial */}
@@ -66,10 +66,10 @@ const CountryList = ({ countries }) => {
             </div>
           ) : (
             // Normal display
-            <div className="flex flex-row justify-center items-center space-x-4">
+            <div className="flex flex-col xsm:flex-row items-center justify-center space-x-[2px] xsm:space-x-4">
               <img src={country.flag} className="h-[60px] w-[80px]" alt={`${country.country} flag`} />
-              <div className="text-left">
-                <h3 className="font-bold font-title mb-1">{country.country}</h3>
+              <div className="text-center xsm:text-left">
+                <h3 className="font-bold font-title mb-1 mt-1 xsm:mt-auto">{country.country}</h3>
                 <p className="font-sans">{country.satellites} satellites</p>
                 <p className="font-sans">First launch year: {country.first_launch_year || "N/A"}</p>
               </div>

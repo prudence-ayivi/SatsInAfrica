@@ -2,7 +2,6 @@ import React from 'react';
 import { Pie } from 'react-chartjs-2';
 
 const CountriesBySatelliteRangeChart = ({ data }) => {
-  // Définition des plages en fonction de `satelliteColorScale`
   const ranges = {
     "1": 0,
     "2-3": 0,
@@ -12,7 +11,6 @@ const CountriesBySatelliteRangeChart = ({ data }) => {
     "11-20": 0,
   };
 
-  // Calcul du nombre de pays dans chaque intervalle
   data.forEach(country => {
     const sats = country.satellites;
     if (sats === 1) ranges["1"] += 1;
@@ -23,7 +21,6 @@ const CountriesBySatelliteRangeChart = ({ data }) => {
     else if (sats >= 11 && sats <= 20) ranges["11-20"] += 1;
   });
 
-  // Données du graphique avec couleurs de `satelliteColorScale`
   const chartData = {
     labels: Object.keys(ranges),
     datasets: [{

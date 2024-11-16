@@ -3,26 +3,26 @@ import { Bar } from 'react-chartjs-2';
 
 const LaunchDateVsAgencyCreationChart = ({ data }) => {
   const chartData = {
-    labels: [], // Les noms des pays
+    labels: [], 
     datasets: [
       {
         label: 'Years Between Agency Creation and First Launch',
-        data: [], // Différences en années
+        data: [], 
         backgroundColor: '#D64045',
       },
     ],
   };
 
   data.forEach((country) => {
-    const agencyCreationYear = parseInt(country.space_agency?.creation_date, 10); // Année de création de l'agence
-    const firstLaunchYear = parseInt(country.first_launch_year, 10); // Année du premier lancement
+    const agencyCreationYear = parseInt(country.space_agency?.creation_date, 10); 
+    const firstLaunchYear = parseInt(country.first_launch_year, 10); 
 
     if (!isNaN(agencyCreationYear) && !isNaN(firstLaunchYear)) {
       const yearsDifference = firstLaunchYear - agencyCreationYear;
 
       if (yearsDifference >= 0) {
-        chartData.labels.push(country.country); // Ajoute le nom du pays
-        chartData.datasets[0].data.push(yearsDifference); // Ajoute la différence
+        chartData.labels.push(country.country); 
+        chartData.datasets[0].data.push(yearsDifference); 
       }
     }
   });

@@ -20,7 +20,7 @@ const Sidebar = () => {
   return (
     <div
       className={`flex flex-col h-screen bg-zinc-100 border-solid border-r transition-width duration-100 ${
-        isOpen ? "w-[700px]" : "w-[75px] justify-between"
+        isOpen ? "xsm:w-[100%] msm:w-[50%] md:w-[700px]" : "w-[75px] justify-between"
       } overflow-y-auto overflow-x-hidden`}
     >
       {/* Icône du menu et de la barre de recherche */}
