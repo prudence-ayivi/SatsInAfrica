@@ -24,7 +24,7 @@ const ChartSection = () => {
           <h1 className="text-2xl font-title font-bold md:text-4xl mb-4">
             Satellites launched by African Countries
           </h1>
-          <p className="text-lg md:text-xl text-gray-600">
+          <p className="text-lg px-2 md:text-xl text-gray-600">
             A quick overview of space exploration activities in Africa
           </p>
         </div>
@@ -37,7 +37,7 @@ const ChartSection = () => {
           </div>
           <div className="text-center">
             <span className="text-4xl md:text-5xl font-extrabold text-blue-600">
-              <CountUp start={0} end={58} duration={3} />
+              <CountUp start={0} end={62} duration={3} />
             </span>
             <p className="text-lg font-medium">Satellites in Orbit</p>
           </div>

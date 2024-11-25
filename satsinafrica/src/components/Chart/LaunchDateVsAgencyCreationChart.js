@@ -6,7 +6,7 @@ const LaunchDateVsAgencyCreationChart = ({ data }) => {
     labels: [], 
     datasets: [
       {
-        label: 'Years Between Agency Creation and First Launch',
+        label: 'Years from Agency Creation and First Launch',
         data: [], 
         backgroundColor: '#D64045',
       },
