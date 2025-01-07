@@ -1,8 +1,8 @@
 [
     {
-        "country": "Algeri",
+        "country": "Algeria",
         "flag": "/SatsInAfrica/country_flags/Algeria (DZ).png",
-        "satellites": 6,
+        "satellites": 7,
         "first_launch_year": "2002",
         "satellites_list": [
             {
