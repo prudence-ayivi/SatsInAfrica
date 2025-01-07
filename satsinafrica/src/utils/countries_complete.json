@@ -108,7 +108,12 @@
             "creation_date": "",
             "budget": ""
         },
-        "space_projects": []
+        "space_projects": [
+            {
+                "project_name": "Burkina Sat-1",
+                "status": "In progress"
+            }
+        ]
     },
     {
         "country": "Burundi",
@@ -204,9 +209,22 @@
     {
         "country": "Djibouti",
         "flag": "/SatsInAfrica/country_flags/Djibouti (DJ).png",
-        "satellites": 3,
+        "satellites": 2,
         "first_launch_year": "2023",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+                "name": "Djibouti-1A",
+                "launch_date": "2023-11-11",
+                "status": "Active", 
+                "type": "Earth Observation", 
+                "data": [2460371.0792, 1.7071, 0.00083, 97.439, 84.585, 248.453, 111.583]
+            },
+            {
+                "name": "Djibouti-1B",
+                "launch_date": "2024-12-21",
+                "status": "Active"
+            }
+        ],
         "space_agency": {
             "name": "",
             "creation_date": "",
@@ -233,7 +251,9 @@
             {
                 "name": "EgyptSat 1",
                 "launch_date": "2007-04-17",
-                "status": "Inactive"
+                "status": "Inactive",
+                "type": "Earth Observation", 
+                "date": [2460601.414583333, 1.7554, 0.00058, 97.992, 314.475, 32.796, 327.361]
             },
             {
                 "name": "EgyptSat 2",
@@ -388,7 +408,7 @@
         },
         "space_projects": [
             {
-                "project_name": "AlSat-NextGen",
+                "project_name": "NextGen",
                 "status": "In progress"
             }
         ]
@@ -398,7 +418,15 @@
         "flag": "/SatsInAfrica/country_flags/Kenya (KE).png",
         "satellites": 3,
         "first_launch_year": "2018",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+                "name": "Taifa-1",
+                "launch_date": "2023-04-14",
+                "status": "Active", 
+                "type": "Earth Observation", 
+                "data": [ 2460371.0563, 1.6916, 0.00083, 97.332, 269.115, 114.115, 246.098]
+            }
+        ],
         "space_agency": {
             "name": "Kenya Space Agence (KSA)",
             "creation_date": "",
@@ -650,7 +678,15 @@
         "flag": "/SatsInAfrica/country_flags/Senegal (SN).png",
         "satellites": 1,
         "first_launch_year": "2024",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+                "name": "GaindeSat-1A",
+                "launch_date": "2023-08-16",
+                "status": "Active",
+                "type": "Earth Observation", 
+                "data": [2460601.419444444, 1.7157, 0.00079, 97.430, 82.38, 25.291, 334.871]
+            }
+        ],
         "space_agency": {
             "name": "Senegalese Space Agency",
             "creation_date": "2023",
@@ -820,24 +856,28 @@
         "flag": "/SatsInAfrica/country_flags/Zimbabwe (ZW).png",
         "satellites": 2,
         "first_launch_year": "2022",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+                "name": "ZIMSAT-1",
+                "launch_date": "2021-11-28",
+                "status": "Active", 
+                "type": "Earth Observation", 
+                "data": [ ]
+            },
+            {
+                "name": "ZIMSAT-2",
+                "launch_date": "2024-11-05",
+                "status": "Active",
+                "type": "Earth Observation", 
+                "data": [2459999.06354, 1.7158, 0.002, 97.376, 233.505, 34.797, 325.457]
+            }            
+        ],
         "space_agency": {
             "name": " Zimbabwe National Geospatial and Space Agency (ZINGSA)",
             "creation_date": "2028",
             "budget": ""
         },
-        "space_projects": [
-            {
-                "name": "ZIMSAT-1",
-                "launch_date": "2021-11-28",
-                "status": "Active"
-            },
-            {
-                "name": "ZIMSAT-2",
-                "launch_date": "2024-11-05",
-                "status": "Active"
-            }            
-        ]
+        "space_projects": []
     }
     
 ]
