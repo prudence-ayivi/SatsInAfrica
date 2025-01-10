@@ -5,7 +5,7 @@ import countryData from "../../utils/countries_complete.json";
 import TooltipContent from "./TooltipContent";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 
-// Color scale per sateliites range
+// Color scale per satellites range
 const satelliteColorScale = [
   { range: [1, 1], color: "#D7DFF2" },
   { range: [2, 3], color: "#B0C0E8" },
