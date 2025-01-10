@@ -6,10 +6,11 @@ const LaunchDateVsAgencyCreationChart = ({ data }) => {
     labels: [], 
     datasets: [
       {
-        label: 'Years from Agency Creation and First Launch',
+        label: 'Years from Agency Creation to first Launch',
         data: [], 
-        backgroundColor: '#D64045',
-      },
+        borderColor: '#D64045',
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderWidth: 1,      },
     ],
   };
 
@@ -29,11 +30,16 @@ const LaunchDateVsAgencyCreationChart = ({ data }) => {
 
   return (
     <div className="font-bold w-full h-full flex flex-col items-center justify-center">
-      <h3>Years Between Agency Creation and First Launch</h3>
+      <h3>Years from Agency Creation to first Launch</h3>
       <div>
         <Bar
           data={chartData}
           options={{
+            plugins: {
+            legend: {
+              display: false,
+            },
+          },
             responsive: true,
             maintainAspectRatio: true,
             scales: {

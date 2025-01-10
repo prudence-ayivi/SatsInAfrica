@@ -17,7 +17,7 @@ const ChartSection = () => {
   }, []);
 
   return (
-    <div id="chart-section" className="font-sans xl:max-w-[70%] mx-auto flex flex-col">
+    <div id="chart-section" className="font-sans xl:max-w-[80%] mx-auto flex flex-col">
       {/* Section des informations générales */}
       <div className="flex flex-col items-center justify-center py-8">
         <div className="text-center">
@@ -31,13 +31,13 @@ const ChartSection = () => {
         <div className="flex flex-wrap justify-center mt-6 gap-8">
           <div className="text-center">
             <span className="text-4xl md:text-5xl font-extrabold text-blue-600">
-              <CountUp start={0} end={17} duration={2} />
+              <CountUp start={0} end={17} duration={4} />
             </span>
             <p className="text-lg font-medium">African Countries</p>
           </div>
           <div className="text-center">
             <span className="text-4xl md:text-5xl font-extrabold text-blue-600">
-              <CountUp start={0} end={62} duration={3} />
+              <CountUp start={0} end={62} duration={7} />
             </span>
             <p className="text-lg font-medium">Satellites in Orbit</p>
           </div>
@@ -45,14 +45,14 @@ const ChartSection = () => {
       </div>
 
       {/* Section des chartes */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 p-4">
-        <div className="bg-zinc-100 shadow-md p-2 rounded-md h-full flex items-center justify-center ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 m-4">
+        <div className="bg-zinc-100 shadow-md p-2 rounded-md flex items-center justify-center ">
           <SatelliteLaunchesChart data={data} />
         </div>
-        <div className="bg-zinc-100 shadow-md p-2 rounded-md h-full flex items-center justify-center ">
+        <div className="bg-zinc-100 shadow-md p-2 rounded-md flex items-center justify-center ">
           <LaunchDateVsAgencyCreationChart data={data} />
         </div>
-        <div className="bg-zinc-100 shadow-md p-2 rounded-md h-full flex items-center justify-center md:col-span-3 md:mx-auto lg:col-span-3 lg:mx-auto">
+        <div className="bg-zinc-100 shadow-md p-2 rounded-md flex items-center justify-center md:col-span-3 md:mx-auto lg:col-span-3 lg:mx-auto">
           <CountriesBySatelliteRangeChart data={data} />
         </div>
       </div>

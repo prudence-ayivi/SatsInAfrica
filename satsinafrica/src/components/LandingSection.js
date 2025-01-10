@@ -30,6 +30,9 @@ const LandingSection = () => {
         >
           EXPLORE
         </a>
+        <p className="text-[10px] py-6">The data used on this site have been sourced from <br/>Space in Africa, 
+        SpaceHubs Africa and In The Sky</p>
+
       </div>
 
       {/* Scroll Down Icon */}
