@@ -4,33 +4,38 @@
         "flag": "/SatsInAfrica/country_flags/Algeria (DZ).png",
         "satellites": 6,
         "first_launch_year": "2002",
-        "satellites_list": [
+        "satellites_list":[
             {
-                "name": "AlSat-1",
-                "launch_date": "2002-11-28",
-                "status": "Inactive"
+              "name": "AlSat-1",
+              "launch_date": "2002-11-28",
+              "status": "Inactive"
             },
             {
-                "name": "AlSat-2A",
-                "launch_date": "2010-07-12",
-                "status": "Active"
+              "name": "AlSat-2A",
+              "launch_date": "2010-07-12",
+              "status": "Active"
             },
             {
-                "name": "AlSat-1B",
-                "launch_date": "2016-09-26",
-                "status": "Active"
+              "name": "AlSat-2B",
+              "launch_date": "2016-09-26",
+              "status": "Active"
             },
             {
-                "name": "AlSat-2B",
-                "launch_date": "2016-09-26",
-                "status": "Active"
+              "name": "AlSat-1N",
+              "launch_date": "2017-11-28",
+              "status": "Inactive"
             },
             {
-                "name": "Alcomsat-1",
-                "launch_date": "2017-12-10",
-                "status": "Active"
+              "name": "AlSat-2C",
+              "launch_date": "2018-11-28",
+              "status": "Active"
+            },
+            {
+              "name": "AlSat-2D",
+              "launch_date": "2019-11-28",
+              "status": "Active"
             }
-        ],
+          ],
         "space_agency": {
             "name": "Algerian Space Agency (ASAL)",
             "creation_date": "2002",
@@ -239,33 +244,71 @@
         "first_launch_year": "1998",
         "satellites_list": [
             {
-                "name": "NileSat 101",
-                "launch_date": "1998-04-28",
-                "status": "Inactive"
+              "name": "EGS-1", 
+              "launch_date": "1998-04-21", 
+              "status": "Inactive" 
             },
             {
-                "name": "NileSat 102",
-                "launch_date": "2000-08-17",
-                "status": "Inactive"
+              "name": "NILESAT 101", 
+              "launch_date": "1998-04-21", 
+              "status": "Inactive" 
             },
             {
-                "name": "EgyptSat 1",
-                "launch_date": "2007-04-17",
-                "status": "Inactive",
-                "type": "Earth Observation", 
-                "date": [2460601.414583333, 1.7554, 0.00058, 97.992, 314.475, 32.796, 327.361]
+              "name": "NILESAT 102", 
+              "launch_date": "1998-04-21", 
+              "status": "Inactive" 
             },
             {
-                "name": "EgyptSat 2",
-                "launch_date": "2014-04-16",
-                "status": "Inactive"
+              "name": "NILESAT 110", 
+              "launch_date": "2000-04-26", 
+              "status": "Inactive" 
             },
             {
-                "name": "EgyptSat-A",
-                "launch_date": "2019-02-21",
-                "status": "Active"
+              "name": "NILESAT 201", 
+              "launch_date": "2008-02-08", 
+              "status": "Active" 
+            },
+            {
+              "name": "EGS-2", 
+              "launch_date": "2009-04-17", 
+              "status": "Active" 
+            },
+            {
+              "name": "NILESAT 301", 
+              "launch_date": "2010-02-08", 
+              "status": "Active" 
+            },
+            {
+              "name": "EGS-3", 
+              "launch_date": "2018-04-08", 
+              "status": "Active" 
+            },
+            {
+              "name": "NILESAT 202", 
+              "launch_date": "2019-06-26", 
+              "status": "Active" 
+            },
+            {
+              "name": "NILESAT 302", 
+              "launch_date": "2022-04-17", 
+              "status": "Active" 
+            },
+            {
+              "name": "EGS-4", 
+              "launch_date": "2022-04-17", 
+              "status": "Active" 
+            },
+            {
+              "name": "EGS-5", 
+              "launch_date": "2023-04-07", 
+              "status": "Active" 
+            },
+            {
+              "name": "NILESAT 303", 
+              "launch_date": "2023-04-07", 
+              "status": "Active" 
             }
-        ],
+          ],
         "space_agency": {
             "name": "Egyptian Space Agency (EgSA)",
             "creation_date": "2019",
@@ -322,7 +365,19 @@
         "flag": "/SatsInAfrica/country_flags/Ethiopia (ET).png",
         "satellites": 2,
         "first_launch_year": "2019",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+              "name": "ETRSS-1",
+              "launch_date": "2019-12-20",
+              "status": "Active"
+            },
+            {
+              "name": "ETRSS-02",
+              "launch_date": "2024-12-15",
+              "status": "Active"
+            }
+          ]
+          ,
         "space_agency": {
             "name": "",
             "creation_date": "",
@@ -361,7 +416,13 @@
         "flag": "/SatsInAfrica/country_flags/Ghana (GH).png",
         "satellites": 1,
         "first_launch_year": "2017",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+              "name": "GhanaSat-1",
+              "launch_date": "2017-07-23",
+              "status": "Inactive" 
+            }
+          ],
         "space_agency": {
             "name": "",
             "creation_date": "",
@@ -420,13 +481,22 @@
         "first_launch_year": "2018",
         "satellites_list": [
             {
-                "name": "Taifa-1",
-                "launch_date": "2023-04-14",
-                "status": "Active", 
-                "type": "Earth Observation", 
-                "data": [ 2460371.0563, 1.6916, 0.00083, 97.332, 269.115, 114.115, 246.098]
+              "name": "1KUNS-PF",
+              "launch_date": "2018-05-11",
+              "status": "Inactive"
+            },
+            {
+              "name": "Taifa-1",
+              "launch_date": "2023-04-14",
+              "status": "Active"
+            },
+            {
+              "name": "Taifa-2",
+              "launch_date": "2024-11-15",
+              "status": "Active"
             }
-        ],
+          ]
+          ,
         "space_agency": {
             "name": "Kenya Space Agence (KSA)",
             "creation_date": "",
@@ -530,7 +600,14 @@
         "flag": "/SatsInAfrica/country_flags/Mauritius (MU).png",
         "satellites": 1,
         "first_launch_year": "2021",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+              "name": "MIR-SAT 1",
+              "launch_date": "2021-06-22",
+              "status": "Active"
+            }
+          ]
+          ,
         "space_agency": {
             "name": "",
             "creation_date": "",
@@ -543,7 +620,23 @@
         "flag": "/SatsInAfrica/country_flags/Morocco (MA).png",
         "satellites": 3,
         "first_launch_year": "2011",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+              "name": "Mohammed VI-A",
+              "launch_date": "2017-11-08",
+              "status": "Active"
+            },
+            {
+              "name": "Mohammed VI-B",
+              "launch_date": "2018-11-21",
+              "status": "Active"
+            },
+            {
+              "name": "Maroc-TUBSAT",
+              "launch_date": "2001-08-21",
+              "status": "Unknown" 
+            }
+          ],
         "space_agency": {
             "name": "",
             "creation_date": "",
@@ -600,28 +693,44 @@
         "flag": "/SatsInAfrica/country_flags/Nigeria (NG).png",
         "satellites": 7,
         "first_launch_year": "2003",
-        "satellites_list": [
+        "satellites_list":[
             {
-                "name": "NigeriaSat-1",
-                "launch_date": "2003-09-27",
-                "status": "Inactive"
+              "name": "NigeriaSat-1",
+              "launch_date": "2003-09-27",
+              "status": "Inactive"
             },
             {
-                "name": "NigeriaSat-2",
-                "launch_date": "2011-08-17",
-                "status": "Active"
+              "name": "NigComSat-1",
+              "launch_date": "2007-05-13",
+              "status": "Inactive"
             },
             {
-                "name": "NigeriaSat-X",
-                "launch_date": "2011-08-17",
-                "status": "Active"
+              "name": "NigeriaSat-2",
+              "launch_date": "2011-08-17",
+              "status": "Active"
             },
             {
-                "name": "NigComSat-1R",
-                "launch_date": "2011-12-19",
-                "status": "Active"
+              "name": "NigeriaSat-X",
+              "launch_date": "2011-08-17",
+              "status": "Active"
+            },
+            {
+              "name": "NigComSat-1R",
+              "launch_date": "2011-12-19",
+              "status": "Active"
+            },
+            {
+              "name": "Nigeria EduSat-1",
+              "launch_date": "2017-06-03",
+              "status": "Inactive"
+            },
+            {
+              "name": "NigeriaSat-3",
+              "launch_date": "2024-10-15",
+              "status": "Active"
             }
-        ],
+          ]
+          ,
         "space_agency": {
             "name": "National Space Research and Development Agency (NASRDA)",
             "creation_date": "1999",
@@ -652,7 +761,19 @@
         "flag": "/SatsInAfrica/country_flags/Rwanda (RW).png",
         "satellites": 2,
         "first_launch_year": "2019",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+              "name": "RWASAT-1",
+              "launch_date": "2019-09-24",
+              "status": "Inactive"
+            },
+            {
+              "name": "Icyerekezo",
+              "launch_date": "2019-11-28",
+              "status": "Active"
+            }
+          ]
+          ,
         "space_agency": {
             "name": "Rwanda Space Agency (RSA)",
             "creation_date": "",
@@ -738,7 +859,73 @@
         "flag": "/SatsInAfrica/country_flags/South Africa (ZA).png",
         "satellites": 13,
         "first_launch_year": "1999",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+              "name": "SumbandilaSat",
+              "launch_date": "2009-09-18",
+              "status": "Inactive" 
+            },
+            {
+              "name": "SunBird",
+              "launch_date": "2017-11-19",
+              "status": "Active" 
+            },
+            {
+              "name": "TshepisoSat",
+              "launch_date": "2013-11-19",
+              "status": "Inactive" 
+            },
+            {
+              "name": "ZA-CUBE-1",
+              "launch_date": "2013-06-19",
+              "status": "Inactive" 
+            },
+            {
+              "name": "ZA-CUBE-2",
+              "launch_date": "2013-06-19",
+              "status": "Inactive" 
+            },
+            {
+              "name": "ZA-CUBE-3",
+              "launch_date": "2013-06-19",
+              "status": "Inactive" 
+            },
+            {
+              "name": "ZingSat-1",
+              "launch_date": "2013-11-19",
+              "status": "Inactive" 
+            },
+            {
+              "name": "Matricsat",
+              "launch_date": "2014-06-18",
+              "status": "Inactive" 
+            },
+            {
+              "name": "Triton",
+              "launch_date": "2015-02-11",
+              "status": "Inactive" 
+            },
+            {
+              "name": "MUSASAT-1",
+              "launch_date": "2018-06-12",
+              "status": "Active" 
+            },
+            {
+              "name": "MUSASAT-2",
+              "launch_date": "2018-06-12",
+              "status": "Active" 
+            },
+            {
+              "name": "ZingSat-2",
+              "launch_date": "2019-06-22",
+              "status": "Active" 
+            },
+            {
+              "name": "CubeSat-1",
+              "launch_date": "2023-02-02",
+              "status": "Active" 
+            }
+          ],
         "space_agency": {
             "name": "South African Space Agency (SANSA)",
             "creation_date": "2010",
@@ -773,7 +960,13 @@
         "flag": "/SatsInAfrica/country_flags/Sudan (SD).png",
         "satellites": 1,
         "first_launch_year": "2019",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+              "name": "SRSS-1",
+              "launch_date": "2019-06-22",
+              "status": "Active" 
+            }
+          ],
         "space_agency": {
             "name": "",
             "creation_date": "",
@@ -815,9 +1008,21 @@
     {
         "country": "Tunisia",
         "flag": "/SatsInAfrica/country_flags/Tunisia (TN).png",
-        "satellites": 1,
+        "satellites": 2,
         "first_launch_year": "2021",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+              "name": "Tunisat-1",
+              "launch_date": "2005-06-26",
+              "status": "Inactive"
+            },
+            {
+              "name": "Challenge-1",
+              "launch_date": "2021-03-22",
+              "status": "Active"
+            }
+          ]
+          ,
         "space_agency": {
             "name": "",
             "creation_date": "",
@@ -830,7 +1035,13 @@
         "flag": "/SatsInAfrica/country_flags/Uganda (UG).png",
         "satellites": 1,
         "first_launch_year": "2022",
-        "satellites_list": [],
+        "satellites_list": [
+            {
+              "name": "PearlAfricaSat-1",
+              "launch_date": "2022-11-07",
+              "status": "Active"
+            }
+          ],
         "space_agency": {
             "name": "",
             "creation_date": "",
