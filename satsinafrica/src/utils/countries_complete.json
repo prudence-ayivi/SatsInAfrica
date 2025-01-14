@@ -61,7 +61,8 @@
             },
             {
                 "name": "AngoSat-2",
-                "launch_date": "2022-10-12"
+                "launch_date": "2022-10-12",
+                "status": "Inactive"
             }
         ],
         "space_agency": {
@@ -221,8 +222,8 @@
                 "name": "Djibouti-1A",
                 "launch_date": "2023-11-11",
                 "status": "Active", 
-                "type": "Earth Observation", 
-                "data": [2460371.0792, 1.7071, 0.00083, 97.439, 84.585, 248.453, 111.583]
+                "mission": "Earth Observation", 
+                "orbit_param": [2460371.0792, 1.7071, 0.00083, 97.439, 84.585, 248.453, 111.583]
             },
             {
                 "name": "Djibouti-1B",
@@ -379,8 +380,8 @@
           ]
           ,
         "space_agency": {
-            "name": "",
-            "creation_date": "",
+            "name": "Ethiopian Space Science Technology Institute (ESSTI)",
+            "creation_date": "2016",
             "budget": ""
         },
         "space_projects": []
@@ -392,8 +393,8 @@
         "first_launch_year": "",
         "satellites_list": [],
         "space_agency": {
-            "name": "",
-            "creation_date": "",
+            "name": "Agence Gabonaise d’Etudes et d’Observations Spatiales (AGEOS)",
+            "creation_date": "2009",
             "budget": ""
         },
         "space_projects": []
@@ -424,8 +425,8 @@
             }
           ],
         "space_agency": {
-            "name": "",
-            "creation_date": "",
+            "name": "Ghana Space Science and Technology Institute (GSSTI)",
+            "creation_date": "2012",
             "budget": ""
         },
         "space_projects": []
@@ -537,8 +538,8 @@
         "first_launch_year": "",
         "satellites_list": [],
         "space_agency": {
-            "name": "",
-            "creation_date": "",
+            "name": "Libya Center for Remote Sensing and Space Science (LCRSSS)",
+            "creation_date": "1989",
             "budget": ""
         },
         "space_projects": []
@@ -638,8 +639,8 @@
             }
           ],
         "space_agency": {
-            "name": "",
-            "creation_date": "",
+            "name": "The Royal Center for Remote Sensing Space (CRTS)",
+            "creation_date": "1989",
             "budget": ""
         },
         "space_projects": []
@@ -720,7 +721,7 @@
               "status": "Active"
             },
             {
-              "name": "Nigeria EduSat-1",
+              "name": "NigeriaEduSat-1",
               "launch_date": "2017-06-03",
               "status": "Inactive"
             },
@@ -776,7 +777,7 @@
           ,
         "space_agency": {
             "name": "Rwanda Space Agency (RSA)",
-            "creation_date": "",
+            "creation_date": "2020",
             "budget": ""
         },
         "space_projects": []
@@ -802,10 +803,11 @@
         "satellites_list": [
             {
                 "name": "GaindeSat-1A",
-                "launch_date": "2023-08-16",
+                "launch_date": "2024-08-16",
                 "status": "Active",
-                "type": "Earth Observation", 
-                "data": [2460601.419444444, 1.7157, 0.00079, 97.430, 82.38, 25.291, 334.871]
+                "mission": "Earth Observation", 
+                "orbit_type": "LEO",
+                "orbit_param": [2460601.419444444, 1.7157, 0.00079, 97.430, 82.38, 25.291, 334.871]
             }
         ],
         "space_agency": {
@@ -1024,8 +1026,8 @@
           ]
           ,
         "space_agency": {
-            "name": "",
-            "creation_date": "",
+            "name": " National Mapping and Remote Sensing Center (CNCT)",
+            "creation_date": "1988",
             "budget": ""
         },
         "space_projects": []
@@ -1039,7 +1041,7 @@
             {
               "name": "PearlAfricaSat-1",
               "launch_date": "2022-11-07",
-              "status": "Active"
+              "status": "Inactive"
             }
           ],
         "space_agency": {
@@ -1072,20 +1074,20 @@
                 "name": "ZIMSAT-1",
                 "launch_date": "2021-11-28",
                 "status": "Active", 
-                "type": "Earth Observation", 
-                "data": [ ]
+                "mission": "Earth Observation", 
+                "orbit_param": [ ]
             },
             {
                 "name": "ZIMSAT-2",
                 "launch_date": "2024-11-05",
                 "status": "Active",
-                "type": "Earth Observation", 
-                "data": [2459999.06354, 1.7158, 0.002, 97.376, 233.505, 34.797, 325.457]
+                "mission": "Earth Observation", 
+                "orbit_param": [2459999.06354, 1.7158, 0.002, 97.376, 233.505, 34.797, 325.457]
             }            
         ],
         "space_agency": {
             "name": " Zimbabwe National Geospatial and Space Agency (ZINGSA)",
-            "creation_date": "2028",
+            "creation_date": "2018",
             "budget": ""
         },
         "space_projects": []

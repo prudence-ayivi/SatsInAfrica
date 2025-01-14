@@ -1,20 +1,40 @@
 import React, { useEffect, useState } from 'react';
 import Chart from 'chart.js/auto';
 import { CategoryScale } from 'chart.js';
-import CountUp from 'react-countup';
 import SatelliteLaunchesChart from './Chart/SatelliteLaunchesChart';
-import LaunchDateVsAgencyCreationChart from './Chart/LaunchDateVsAgencyCreationChart';
+import CountryAgency from './Chart/CountryAgency';
 import CountriesBySatelliteRangeChart from './Chart/CountriesBySatelliteRangeChart';
+import ActiveVsInactiveSats from './Chart/ActiveVsInactiveSats';
+import { CgArrowDownR } from "react-icons/cg";
+import SatelliteList from './SatelliteList'
 import countryData from '../utils/countries_complete.json';
 
 Chart.register(CategoryScale);
 
 const ChartSection = () => {
   const [data, setData] = useState([]);
+  const [totalSats, setTotalSats] = useState(0);
+  const [satelliteData, setSatelliteData] = useState([]);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  
 
   useEffect(() => {
     setData(countryData);
+    const satellites = countryData
+    .filter((country) => country.satellites_list)
+    .reduce((acc, country) => acc.concat(country.satellites_list.map((sat) => ({
+            ...sat,
+            country: country.country,
+          }))
+        ),
+      []
+    );
+    setTotalSats(satellites.length);
+    setSatelliteData(satellites);
+
   }, []);
+
+  const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
 
   return (
     <div id="chart-section" className="font-sans xl:max-w-[80%] mx-auto flex flex-col">
@@ -28,19 +48,13 @@ const ChartSection = () => {
             A quick overview of space exploration activities in Africa
           </p>
         </div>
-        <div className="flex flex-wrap justify-center mt-6 gap-8">
-          <div className="text-center">
-            <span className="text-4xl md:text-5xl font-extrabold text-blue-600">
-              <CountUp start={0} end={17} duration={4} />
-            </span>
-            <p className="text-lg font-medium">African Countries</p>
-          </div>
-          <div className="text-center">
-            <span className="text-4xl md:text-5xl font-extrabold text-blue-600">
-              <CountUp start={0} end={62} duration={7} />
-            </span>
-            <p className="text-lg font-medium">Satellites in Orbit</p>
-          </div>
+
+        <div className="w-[97%] m-4">
+          <p className="flex flex-row items-center justify-center gap-8 bg-zinc-100 p-4 text-lg font-bold cursor-pointer" onClick={toggleDropdown}> 
+          See the full list of all {totalSats} african satellites and their status
+          <CgArrowDownR />
+          </p>
+          {isDropdownOpen && <SatelliteList satellites={satelliteData} />}
         </div>
       </div>
 
@@ -50,10 +64,13 @@ const ChartSection = () => {
           <SatelliteLaunchesChart data={data} />
         </div>
         <div className="bg-zinc-100 shadow-md p-2 rounded-md flex items-center justify-center ">
-          <LaunchDateVsAgencyCreationChart data={data} />
+          <CountryAgency data={data} />
         </div>
-        <div className="bg-zinc-100 shadow-md p-2 rounded-md flex items-center justify-center md:col-span-3 md:mx-auto lg:col-span-3 lg:mx-auto">
+        <div className="bg-zinc-100 shadow-md p-2 rounded-md flex items-center justify-center">
           <CountriesBySatelliteRangeChart data={data} />
+        </div>
+        <div className="bg-zinc-100 shadow-md p-2 rounded-md flex items-center justify-center">
+          <ActiveVsInactiveSats data={satelliteData} />
         </div>
       </div>
     </div>

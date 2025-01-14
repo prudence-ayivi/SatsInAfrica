@@ -1,11 +1,28 @@
-import React from 'react';
+import React, {useState, useEffect } from 'react';
 import { SlArrowDown } from "react-icons/sl";
 import Header from "./Header";
+import CountUp from 'react-countup';
+import countryData from '../utils/countries_complete.json';
+
 
 const LandingSection = () => {
+  const [countriesWithSats, setCountriesWithSats] = useState(0);
+  const [totalSats, setTotalSats] = useState(0);
+
+  useEffect(() => {
+    const countries = countryData.filter((country) => country.satellites > 0).length;
+    setCountriesWithSats(countries);
+
+    const satellites = countryData
+    .filter((country) => country.satellites_list) // Vérifie qu'il y a une liste de satellites
+    .reduce((total, country) => total + country.satellites_list.length, 0);
+    setTotalSats(satellites);
+
+  }, []);
+
   return (
     <div
-      className="relative flex flex-col items-center justify-center w-full h-screen bg-cover bg-center text-white"
+      className="font-sans relative flex flex-col items-center justify-center w-full h-screen bg-cover bg-center text-white"
       style={{
         backgroundImage: "url('BackGround.png')", 
       }}
@@ -21,17 +38,30 @@ const LandingSection = () => {
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center">
         <h1 className="text-5xl font-title font-bold mb-4">Sats In Africa</h1>
-        <p className="text-lg font-sans mb-8">Visualize African Space Industry</p>
+        <p className="text-lg mb-8">Visualize African Space Industry</p>
 
         {/* Explore Button */}
         <a
           href="#map-section"
-          className="text-lg px-10 py-2 rounded-full font-sans bg-[#D64045] hover:bg-sky-500 transition-colors"
+          className="text-lg px-10 py-2 rounded-full bg-[#D64045] hover:bg-sky-500 transition-colors"
         >
           EXPLORE
         </a>
-        <p className="text-[10px] py-6">The data used on this site have been sourced from <br/>Space in Africa, 
-        SpaceHubs Africa and In The Sky</p>
+
+        <div className="flex flex-wrap justify-center mt-6 gap-8">
+          <div className="text-center">
+            <span className="text-4xl md:text-5xl font-extrabold text-blue-600">
+              <CountUp start={0} end={countriesWithSats} duration={4} />
+            </span>
+            <p className="text-md font-medium">African Countries</p>
+          </div>
+          <div className="text-center">
+            <span className="text-4xl md:text-5xl font-extrabold text-blue-600">
+              <CountUp start={0} end={totalSats} duration={7} />
+            </span>
+            <p className="text-md font-medium">Lunched Satellites in Orbit</p>
+          </div>
+        </div>
 
       </div>
 
