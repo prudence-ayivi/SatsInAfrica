@@ -88,20 +88,23 @@
     {
         "country": "Botswana",
         "flag": "/SatsInAfrica/country_flags/Botswana (BW).png",
-        "satellites": 0,
-        "first_launch_year": "",
-        "satellites_list": [],
+        "satellites": 1,
+        "first_launch_year": "2025",
+        "satellites_list": [
+        {            
+            "name": "BOTSAT-1",
+            "launch_date": "2025-03-15",
+            "status": "Active", 
+            "mission": "Earth Observation", 
+            "orbit_param": [2460371.0792, 1.7071, 0.00083, 97.439, 84.585, 248.453, 111.583]
+        }
+        ],
         "space_agency": {
             "name": "",
             "creation_date": "",
             "budget": ""
         },
-        "space_projects": [
-            {
-                "project_name": "AlSat-NextGen",
-                "status": "In progress"
-            }
-        ]
+        "space_projects": []
     },
     {
         "country": "Burkina Faso",
