@@ -567,7 +567,7 @@
         "first_launch_year": "",
         "satellites_list": [],
         "space_agency": {
-            "name": "Malawi Space Agency",
+            "name": "Malawi Space Agency (MSA)",
             "creation_date": "2023",
             "budget": ""
         },
@@ -814,7 +814,7 @@
             }
         ],
         "space_agency": {
-            "name": "Senegalese Space Agency",
+            "name": "Senegalese Space Agency (ASES)",
             "creation_date": "2023",
             "budget": ""
         },
