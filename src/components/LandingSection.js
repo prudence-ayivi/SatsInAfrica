@@ -48,7 +48,7 @@ const LandingSection = () => {
           EXPLORE
         </a>
 
-        <div className="flex flex-wrap justify-center mt-6 gap-8">
+        <div className="flex flex-wrap justify-center mx-2 mt-6 gap-3 md:gap-8">
           <div className="text-center">
             <span className="text-4xl md:text-5xl font-extrabold text-blue-600">
               <CountUp start={0} end={countriesWithSats} duration={4} />

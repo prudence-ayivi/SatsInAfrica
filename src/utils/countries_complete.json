@@ -1,7 +1,7 @@
 [
     {
         "country": "Algeria",
-        "flag": "/SatsInAfrica/country_flags/Algeria (DZ).png",
+        "flag": "/country_flags/Algeria (DZ).png",
         "satellites": 6,
         "first_launch_year": "2002",
         "satellites_list":[
@@ -50,7 +50,7 @@
     },
     {
         "country": "Angola",
-        "flag": "/SatsInAfrica/country_flags/Angola (AO).png",
+        "flag": "/country_flags/Angola (AO).png",
         "satellites": 2,
         "first_launch_year": "2017",
         "satellites_list": [
@@ -74,7 +74,7 @@
     },
     {
         "country": "Benin",
-        "flag": "/SatsInAfrica/country_flags/Benin (BJ).png",
+        "flag": "/country_flags/Benin (BJ).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -87,7 +87,7 @@
     },
     {
         "country": "Botswana",
-        "flag": "/SatsInAfrica/country_flags/Botswana (BW).png",
+        "flag": "/country_flags/Botswana (BW).png",
         "satellites": 1,
         "first_launch_year": "2025",
         "satellites_list": [
@@ -108,7 +108,7 @@
     },
     {
         "country": "Burkina Faso",
-        "flag": "/SatsInAfrica/country_flags/Burkina Faso.png",
+        "flag": "/country_flags/Burkina Faso.png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -126,7 +126,7 @@
     },
     {
         "country": "Burundi",
-        "flag": "/SatsInAfrica/country_flags/Burundi (BI).png",
+        "flag": "/country_flags/Burundi (BI).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -139,7 +139,7 @@
     },
     {
         "country": "Cabo Verde",
-        "flag": "/SatsInAfrica/country_flags/Cabo Verde (CV).png",
+        "flag": "/country_flags/Cabo Verde (CV).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -152,7 +152,7 @@
     },
     {
         "country": "Cameroon",
-        "flag": "/SatsInAfrica/country_flags/Cameroon CM.png",
+        "flag": "/country_flags/Cameroon CM.png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -165,7 +165,7 @@
     },
     {
         "country": "Central African Rep.",
-        "flag": "/SatsInAfrica/country_flags/Central African Republic (CF).png",
+        "flag": "/country_flags/Central African Republic (CF).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -178,7 +178,7 @@
     },
     {
         "country": "Chad",
-        "flag": "/SatsInAfrica/country_flags/Chad (TD).png",
+        "flag": "/country_flags/Chad (TD).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -191,7 +191,7 @@
     },
     {
         "country": "Comoros",
-        "flag": "/SatsInAfrica/country_flags/Comoros (KM).png",
+        "flag": "/country_flags/Comoros (KM).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -204,7 +204,7 @@
     },
     {
         "country": "Dem. Rep. Congo",
-        "flag": "/SatsInAfrica/country_flags/Democratic Republic of the Congo (CD).png",
+        "flag": "/country_flags/Democratic Republic of the Congo (CD).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -217,7 +217,7 @@
     },    
     {
         "country": "Djibouti",
-        "flag": "/SatsInAfrica/country_flags/Djibouti (DJ).png",
+        "flag": "/country_flags/Djibouti (DJ).png",
         "satellites": 2,
         "first_launch_year": "2023",
         "satellites_list": [
@@ -243,7 +243,7 @@
     },    
     {
         "country": "Egypt",
-        "flag": "/SatsInAfrica/country_flags/Egypt (EG).png",
+        "flag": "/country_flags/Egypt (EG).png",
         "satellites": 13,
         "first_launch_year": "1998",
         "satellites_list": [
@@ -327,7 +327,7 @@
     },
     {
         "country": "Equatorial Guinea",
-        "flag": "/SatsInAfrica/country_flags/Equatorial Guinea (GQ).png",
+        "flag": "/country_flags/Equatorial Guinea (GQ).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -340,7 +340,7 @@
     },
     {
         "country": "Eritrea",
-        "flag": "/SatsInAfrica/country_flags/Eritrea (ER).png",
+        "flag": "/country_flags/Eritrea (ER).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -353,7 +353,7 @@
     },
     {
         "country": "Eswatini",
-        "flag": "/SatsInAfrica/country_flags/Eswatini (SZ).png",
+        "flag": "/country_flags/Eswatini (SZ).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -366,7 +366,7 @@
     },
     {
         "country": "Ethiopia",
-        "flag": "/SatsInAfrica/country_flags/Ethiopia (ET).png",
+        "flag": "/country_flags/Ethiopia (ET).png",
         "satellites": 2,
         "first_launch_year": "2019",
         "satellites_list": [
@@ -391,7 +391,7 @@
     },
     {
         "country": "Gabon",
-        "flag": "/SatsInAfrica/country_flags/Gabon (GA).png",
+        "flag": "/country_flags/Gabon (GA).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -404,7 +404,7 @@
     },
     {
         "country": "Gambia",
-        "flag": "/SatsInAfrica/country_flags/Gambia (GM).png",
+        "flag": "/country_flags/Gambia (GM).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -417,7 +417,7 @@
     },
     {
         "country": "Ghana",
-        "flag": "/SatsInAfrica/country_flags/Ghana (GH).png",
+        "flag": "/country_flags/Ghana (GH).png",
         "satellites": 1,
         "first_launch_year": "2017",
         "satellites_list": [
@@ -436,7 +436,7 @@
     },
     {
         "country": "Guinea",
-        "flag": "/SatsInAfrica/country_flags/Guinea (GN).png",
+        "flag": "/country_flags/Guinea (GN).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -449,7 +449,7 @@
     },
     {
         "country": "Guinea-Bissau",
-        "flag": "/SatsInAfrica/country_flags/Guinea-Bissau (GW).png",
+        "flag": "/country_flags/Guinea-Bissau (GW).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -462,7 +462,7 @@
     },
     {
         "country": "Côte d'Ivoire",
-        "flag": "/SatsInAfrica/country_flags/Côte d'Ivoire (CI).png",
+        "flag": "/country_flags/Côte d'Ivoire (CI).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -480,7 +480,7 @@
     },
     {
         "country": "Kenya",
-        "flag": "/SatsInAfrica/country_flags/Kenya (KE).png",
+        "flag": "/country_flags/Kenya (KE).png",
         "satellites": 3,
         "first_launch_year": "2018",
         "satellites_list": [
@@ -510,7 +510,7 @@
     },
     {
         "country": "Lesotho",
-        "flag": "/SatsInAfrica/country_flags/Lesotho (LS).png",
+        "flag": "/country_flags/Lesotho (LS).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -523,7 +523,7 @@
     },
     {
         "country": "Liberia",
-        "flag": "/SatsInAfrica/country_flags/Liberia (LR).png",
+        "flag": "/country_flags/Liberia (LR).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -536,7 +536,7 @@
     },
     {
         "country": "Libya",
-        "flag": "/SatsInAfrica/country_flags/Libya (LY).png",
+        "flag": "/country_flags/Libya (LY).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -549,7 +549,7 @@
     },
     {
         "country": "Madagascar",
-        "flag": "/SatsInAfrica/country_flags/Madagascar (MG).png",
+        "flag": "/country_flags/Madagascar (MG).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -562,7 +562,7 @@
     },
     {
         "country": "Malawi",
-        "flag": "/SatsInAfrica/country_flags/Malawi (MW).png",
+        "flag": "/country_flags/Malawi (MW).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -575,7 +575,7 @@
     },
     {
         "country": "Mali",
-        "flag": "/SatsInAfrica/country_flags/Mali (ML).png",
+        "flag": "/country_flags/Mali (ML).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -588,7 +588,7 @@
     },
     {
         "country": "Mauritania",
-        "flag": "/SatsInAfrica/country_flags/Mauritania (MR).png",
+        "flag": "/country_flags/Mauritania (MR).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -601,7 +601,7 @@
     },
     {
         "country": "Mauritius",
-        "flag": "/SatsInAfrica/country_flags/Mauritius (MU).png",
+        "flag": "/country_flags/Mauritius (MU).png",
         "satellites": 1,
         "first_launch_year": "2021",
         "satellites_list": [
@@ -621,7 +621,7 @@
     },
     {
         "country": "Morocco",
-        "flag": "/SatsInAfrica/country_flags/Morocco (MA).png",
+        "flag": "/country_flags/Morocco (MA).png",
         "satellites": 3,
         "first_launch_year": "2011",
         "satellites_list": [
@@ -650,7 +650,7 @@
     },
     {
         "country": "Mozambique",
-        "flag": "/SatsInAfrica/country_flags/Mozambique (MZ).png",
+        "flag": "/country_flags/Mozambique (MZ).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -663,7 +663,7 @@
     },
     {
         "country": "Namibia",
-        "flag": "/SatsInAfrica/country_flags/Namibia (NA).png",
+        "flag": "/country_flags/Namibia (NA).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -681,7 +681,7 @@
     },
     {
         "country": "Niger",
-        "flag": "/SatsInAfrica/country_flags/Niger (NE).png",
+        "flag": "/country_flags/Niger (NE).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -694,7 +694,7 @@
     },
     {
         "country": "Nigeria",
-        "flag": "/SatsInAfrica/country_flags/Nigeria (NG).png",
+        "flag": "/country_flags/Nigeria (NG).png",
         "satellites": 7,
         "first_launch_year": "2003",
         "satellites_list":[
@@ -749,7 +749,7 @@
     },
     {
         "country": "Congo",
-        "flag": "/SatsInAfrica/country_flags/Republic of the Congo (CG).png",
+        "flag": "/country_flags/Republic of the Congo (CG).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -762,7 +762,7 @@
     },
     {
         "country": "Rwanda",
-        "flag": "/SatsInAfrica/country_flags/Rwanda (RW).png",
+        "flag": "/country_flags/Rwanda (RW).png",
         "satellites": 2,
         "first_launch_year": "2019",
         "satellites_list": [
@@ -787,7 +787,7 @@
     },
     {
         "country": "Sao Tome and Principe",
-        "flag": "/SatsInAfrica/country_flags/Sao Tome and Principe (ST).png",
+        "flag": "/country_flags/Sao Tome and Principe (ST).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -800,7 +800,7 @@
     },
     {
         "country": "Senegal",
-        "flag": "/SatsInAfrica/country_flags/Senegal (SN).png",
+        "flag": "/country_flags/Senegal (SN).png",
         "satellites": 1,
         "first_launch_year": "2024",
         "satellites_list": [
@@ -822,7 +822,7 @@
     },
     {
         "country": "Seychelles",
-        "flag": "/SatsInAfrica/country_flags/Seychelles (SC).png",
+        "flag": "/country_flags/Seychelles (SC).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -835,7 +835,7 @@
     },
     {
         "country": "Sierra Leone",
-        "flag": "/SatsInAfrica/country_flags/Sierra Leone (SL).png",
+        "flag": "/country_flags/Sierra Leone (SL).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -848,7 +848,7 @@
     },
     {
         "country": "Somalia",
-        "flag": "/SatsInAfrica/country_flags/Somalia (SO).png",
+        "flag": "/country_flags/Somalia (SO).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -861,7 +861,7 @@
     },
     {
         "country": "South Africa",
-        "flag": "/SatsInAfrica/country_flags/South Africa (ZA).png",
+        "flag": "/country_flags/South Africa (ZA).png",
         "satellites": 13,
         "first_launch_year": "1999",
         "satellites_list": [
@@ -949,7 +949,7 @@
     },
     {
         "country": "S. Sudan",
-        "flag": "/SatsInAfrica/country_flags/South Sudan (SS).png",
+        "flag": "/country_flags/South Sudan (SS).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -962,7 +962,7 @@
     },
     {
         "country": "Sudan",
-        "flag": "/SatsInAfrica/country_flags/Sudan (SD).png",
+        "flag": "/country_flags/Sudan (SD).png",
         "satellites": 1,
         "first_launch_year": "2019",
         "satellites_list": [
@@ -981,7 +981,7 @@
     },
     {
         "country": "Tanzania",
-        "flag": "/SatsInAfrica/country_flags/Tanzania (TZ).png",
+        "flag": "/country_flags/Tanzania (TZ).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -999,7 +999,7 @@
     },
     {
         "country": "Togo",
-        "flag": "/SatsInAfrica/country_flags/Togo (TG).png",
+        "flag": "/country_flags/Togo (TG).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -1012,7 +1012,7 @@
     },
     {
         "country": "Tunisia",
-        "flag": "/SatsInAfrica/country_flags/Tunisia (TN).png",
+        "flag": "/country_flags/Tunisia (TN).png",
         "satellites": 2,
         "first_launch_year": "2021",
         "satellites_list": [
@@ -1037,7 +1037,7 @@
     },
     {
         "country": "Uganda",
-        "flag": "/SatsInAfrica/country_flags/Uganda (UG).png",
+        "flag": "/country_flags/Uganda (UG).png",
         "satellites": 1,
         "first_launch_year": "2022",
         "satellites_list": [
@@ -1056,7 +1056,7 @@
     },
     {
         "country": "Zambia",
-        "flag": "/SatsInAfrica/country_flags/Zambia (ZM).png",
+        "flag": "/country_flags/Zambia (ZM).png",
         "satellites": 0,
         "first_launch_year": "",
         "satellites_list": [],
@@ -1069,7 +1069,7 @@
     },
     {
         "country": "Zimbabwe",
-        "flag": "/SatsInAfrica/country_flags/Zimbabwe (ZW).png",
+        "flag": "/country_flags/Zimbabwe (ZW).png",
         "satellites": 2,
         "first_launch_year": "2022",
         "satellites_list": [
