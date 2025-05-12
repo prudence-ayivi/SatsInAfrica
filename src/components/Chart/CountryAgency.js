@@ -11,7 +11,7 @@ const CountryAgency = ({ data }) => {
   data.forEach((country) => {
     if (country.space_agency.name) {
       agencyStatus.withAgency += 1;
-      console.log(agencyStatus.withAgency)
+      // console.log(agencyStatus.withAgency)
     } else {
       agencyStatus.withoutAgency += 1;
     }

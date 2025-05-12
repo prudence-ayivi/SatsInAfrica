@@ -66,7 +66,7 @@
             }
         ],
         "space_agency": {
-            "name": "National Space Program Management Office",
+            "name": "National Space Program Management Office (GGPEN)",
             "creation_date": "2013",
             "budget": "$20 million"
         },
@@ -201,6 +201,24 @@
             "budget": ""
         },
         "space_projects": []
+    },
+    {
+        "country": "Côte d'Ivoire",
+        "flag": "/country_flags/Côte d'Ivoire (CI).png",
+        "satellites": 0,
+        "first_launch_year": "",
+        "satellites_list": [],
+        "space_agency": {
+            "name": "",
+            "creation_date": "",
+            "budget": ""
+        },
+        "space_projects": [
+            {
+                "project_name": "Yam-Sat CI 01",
+                "status": "In progress"
+            }
+        ]
     },
     {
         "country": "Dem. Rep. Congo",
@@ -459,24 +477,6 @@
             "budget": ""
         },
         "space_projects": []
-    },
-    {
-        "country": "Côte d'Ivoire",
-        "flag": "/country_flags/Côte d'Ivoire (CI).png",
-        "satellites": 0,
-        "first_launch_year": "",
-        "satellites_list": [],
-        "space_agency": {
-            "name": "",
-            "creation_date": "",
-            "budget": ""
-        },
-        "space_projects": [
-            {
-                "project_name": "Yam-Sat CI 01",
-                "status": "In progress"
-            }
-        ]
     },
     {
         "country": "Kenya",

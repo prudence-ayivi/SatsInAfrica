@@ -10,18 +10,18 @@ const CountryPage = ({ searchQuery }) => {
 
   const handleCountryFilterChange = (selectedCountries) => {
     setSelectedCountries(selectedCountries);
-    console.log("Selected Countries:", selectedCountries);
+    // console.log("Selected Countries:", selectedCountries);
   };
 
   const handleYearFilterChange = (selectedLaunchYears) => {
     setSelectedLaunchYears(selectedLaunchYears);
-    console.log("Selected Launch Years:", selectedLaunchYears);
+    // console.log("Selected Launch Years:", selectedLaunchYears);
 
   };
 
   const handleSatelliteFilterChange = (selectedSatelliteRanges) => {
     setSelectedSatelliteRanges(selectedSatelliteRanges);
-    console.log("Selected Number of Satellites:", selectedSatelliteRanges);
+    // console.log("Selected Number of Satellites:", selectedSatelliteRanges);
 
   };
 
@@ -38,7 +38,7 @@ const CountryPage = ({ searchQuery }) => {
     return matchesCountry && matchesLaunchYear && matchesSatellites && matchesSearchQuery;
   });
 
-  console.log("Filtered Countries:", filteredCountries);
+  // console.log("Filtered Countries:", filteredCountries);
 
   return (
     <div>
