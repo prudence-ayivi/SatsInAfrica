@@ -209,8 +209,8 @@
         "first_launch_year": "",
         "satellites_list": [],
         "space_agency": {
-            "name": "",
-            "creation_date": "",
+            "name": "Agence Spatiale de Côte d’Ivoire (ASCI)",
+            "creation_date": "06/05/2025",
             "budget": ""
         },
         "space_projects": [
@@ -401,7 +401,7 @@
           ]
           ,
         "space_agency": {
-            "name": "Ethiopian Space Science Technology Institute (ESSTI)",
+            "name": "Ethiopian Space Science and Geospatial Institute (SSGI)",
             "creation_date": "2016",
             "budget": ""
         },
@@ -639,6 +639,22 @@
               "name": "Maroc-TUBSAT",
               "launch_date": "2001-08-21",
               "status": "Unknown" 
+            },
+            {
+              "name": "UM5-EOSat",
+              "launch_date": "2024-08-16",
+              "status": "Active", 
+              "mission": "Earth Observation", 
+              "orbit_type": "LEO",
+              "orbit_param": []
+            }, 
+            {
+              "name": "UM5-Ribat",
+              "launch_date": "2024-08-16",
+              "status": "Active", 
+              "mission": "Communication", 
+              "orbit_type": "LEO",
+              "orbit_param": [] 
             }
           ],
         "space_agency": {
