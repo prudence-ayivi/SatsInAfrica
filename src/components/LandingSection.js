@@ -14,8 +14,8 @@ const LandingSection = () => {
     setCountriesWithSats(countries);
 
     const satellites = countryData
-    .filter((country) => country.satellites_list) // Vérifie qu'il y a une liste de satellites
-    .reduce((total, country) => total + country.satellites_list.length, 0);
+    .filter((country) => country.satellites > 0) 
+    .reduce((total, country) => total + country.satellites, 0);
     setTotalSats(satellites);
 
   }, []);
@@ -59,7 +59,7 @@ const LandingSection = () => {
             <span className="text-4xl md:text-5xl font-extrabold text-blue-600">
               <CountUp start={0} end={totalSats} duration={7} />
             </span>
-            <p className="text-md font-medium">Lunched Satellites in Orbit</p>
+            <p className="text-md font-medium">Satellites lunched in Orbit</p>
           </div>
         </div>
 

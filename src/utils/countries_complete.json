@@ -55,14 +55,14 @@
         "first_launch_year": "2017",
         "satellites_list": [
             {
-                "name": "AngoSat-1",
+                "name": "ANGOSAT 1",
                 "launch_date": "2017-12-26",
                 "status": "Inactive"
             },
             {
-                "name": "AngoSat-2",
+                "name": "ANGOSAT 2",
                 "launch_date": "2022-10-12",
-                "status": "Inactive"
+                "status": "Active"
             }
         ],
         "space_agency": {
@@ -622,7 +622,7 @@
     {
         "country": "Morocco",
         "flag": "/country_flags/Morocco (MA).png",
-        "satellites": 3,
+        "satellites": 5,
         "first_launch_year": "2011",
         "satellites_list": [
             {

@@ -6,7 +6,7 @@ const Footer = () => {
     <p className="my-1 text-[10px] md:text-sm">The data used on this site have been sourced from <br/> Space in Africa, 
     SpaceHubs Africa and In The Sky</p>
     <div>
-    <p className="text-sm"> Copyright © {new Date().getFullYear()} </p>
+    <p className="text-sm"> Copyright © 2024 - {new Date().getFullYear()} </p>
     <p className="text-sm mb-1 md:mt-1">Built with ❤️ by Prudence AYIVI</p>
     </div>
     </div>

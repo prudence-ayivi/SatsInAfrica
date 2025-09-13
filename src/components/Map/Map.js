@@ -25,7 +25,7 @@ const getCountryColor = (country) => {
   if (hasProjectInProgress) {
     return projectInProgressColor;
   } else {
-    const satelliteCount = country.satellites || 0;
+    const satelliteCount = country.satellites_list.length || 0;
     for (let scale of satelliteColorScale) {
       if (
         satelliteCount >= scale.range[0] &&
