@@ -20,8 +20,8 @@ const Sidebar = () => {
   return (
     <div
       className={`flex flex-col h-screen bg-zinc-100 border-solid border-r transition-width duration-100 ${
-        isOpen
-          ? "xsm:w-[100%] msm:w-[50%] md:w-[700px]"
+        isOpen 
+          ? "w-[75%] md:w-[700px]"
           : "w-[75px] justify-between"
       } overflow-y-auto overflow-x-hidden`}
     >
@@ -50,11 +50,11 @@ const Sidebar = () => {
         {isOpen && (
           <div className="flex items-center w-full">
             {mode === "about" ? (
-              <h2 className="text-xl ml-4 font-title font-bold md:text-2xl">
+              <h2 className="text-sm ml-2 font-title font-bold md:text-2xl">
                 About this project
               </h2>
             ) : (
-              <div className="flex items-center ml-4 w-full">
+              <div className="flex items-center ml-2 md:ml-4 w-full">
                 <input
                   type="text"
                   className="ml-2 p-2 w-full bg-white rounded-[24px] font-sans border focus:outline-none focus:border-slate-900"
@@ -78,19 +78,22 @@ const Sidebar = () => {
       {isOpen && (
         <div className="p-4 space-y-4">
           {mode === "about" ? (
-            <div className="text-justify space-y-4 px-4">
+            <div className="text-justify font-sans space-y-3 text-md">
               <p>
                 This website is the data visualisation of the evolution of space
                 sector in Africa, mainly through satellite lunch and operation,
                 space agencies and national space budget.
                 The goal is to provide up to date insights on african space industry in interactive and educative way 
-                for researchers, students and space enthusiasts
+                for researchers, students and space enthusiasts.
               </p>
               <p>
                 This project is entirely{" "}
                 <span className="font-bold">open source</span>, carried out
                 voluntarily and free of charge. The data come exclusively from
-                open and accessible sources and organized to help understand the development of space in Africa. 
+                open and accessible sources :<span className="font-bold">
+                  {" "}
+                  Space in Africa, SpaceHubs Africa and In The Sky
+                </span>. 
                 Particular attention has been paid to keeping the information as up to date as possible, especially
                 by considering the most recent space activities in Africa.
               </p>
@@ -102,14 +105,6 @@ const Sidebar = () => {
                 agency. This distinction was made to highlight recognized
                 institutions, while underlining that the African space sector is
                 still in the process of structuring and development.
-              </p>
-              <p>
-                The data used on this site have been sourced from
-                <span className="font-bold">
-                  {" "}
-                  Space in Africa, SpaceHubs Africa and In The Sky
-                </span>
-                .
               </p>
             </div>
           ) : (

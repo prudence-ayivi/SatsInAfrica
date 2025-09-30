@@ -33,7 +33,7 @@ const LandingSection = () => {
       </div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#171c1f] opacity-[0.86]"></div>
+      <div className="absolute inset-0 bg-[#14191b]/80"></div>
 
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center">
