@@ -10,11 +10,11 @@ const Header = () => {
   };
 
   return (
-    <div className="flex flex-row items-center w-full h-[70px] bg-black px-4 py-2">
+    <div className="flex flex-row items-center w-full h-[70px] bg-white/20 px-4 py-2">
       {/* Logo */}
       <img
-        src="LOGO.png"
-        className="h-[50px] w-[50px] mr-auto cursor-pointer"
+        src="satlogovec.png"
+        className="h-[55px] w-[55px] mr-auto cursor-pointer"
         alt="logo"
       />
 
@@ -36,6 +36,15 @@ const Header = () => {
               className="flex flex-row items-center font-sans cursor-pointer"
             >
               CHART
+              <IoMdArrowDropdown className="text-sm mt-1 ml-2" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="#orbit-section"
+              className="flex flex-row items-center font-sans cursor-pointer"
+            >
+              ORBIT
               <IoMdArrowDropdown className="text-sm mt-1 ml-2" />
             </a>
           </li>
@@ -68,7 +77,7 @@ const Header = () => {
 
       {/* Dropdown Menu for Mobile */}
       {isMenuOpen && (
-        <div className="absolute top-[70px] left-0 w-full bg-black text-white flex flex-col items-center space-y-4 p-4 z-50 md:hidden">
+        <div className="absolute top-[70px] left-0 w-full bg-white/20 text-white flex flex-col items-center space-y-4 p-4 z-50 md:hidden">
           <a
             href="#map-section"
             className="font-sans flex items-center cursor-pointer"
