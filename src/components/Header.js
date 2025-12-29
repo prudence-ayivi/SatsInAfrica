@@ -95,7 +95,15 @@ const Header = () => {
             <IoMdArrowDropdown className="text-sm mt-1 ml-2" />
           </a>
           <a
-            href="#about"
+            href="#orbit-section"
+            className="font-sans flex items-center cursor-pointer"
+            onClick={toggleMenu}
+          >
+            ORBIT
+            <IoMdArrowDropdown className="text-sm mt-1 ml-2" />
+          </a>
+          <a
+            href="#about-section"
             className="font-sans flex items-center cursor-pointer"
             onClick={toggleMenu}
           >

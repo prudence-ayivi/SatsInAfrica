@@ -16,22 +16,22 @@
               "status": "Active"
             },
             {
-              "name": "AlSat-2B",
+              "name": "AlSat-1B",
               "launch_date": "2016-09-26",
               "status": "Active"
             },
             {
-              "name": "AlSat-1N",
+              "name": "AlSat-1B",
               "launch_date": "2017-11-28",
               "status": "Inactive"
             },
             {
-              "name": "AlSat-2C",
+              "name": "AlSat-1N",
               "launch_date": "2018-11-28",
               "status": "Active"
             },
             {
-              "name": "AlSat-2D",
+              "name": "AlComSat 1",
               "launch_date": "2019-11-28",
               "status": "Active"
             }
@@ -262,23 +262,24 @@
     {
         "country": "Egypt",
         "flag": "/country_flags/Egypt (EG).png",
-        "satellites": 13,
+        "satellites": 15,
         "first_launch_year": "1998",
         "satellites_list": [
             {
-              "name": "EGS-1", 
-              "launch_date": "1998-04-21", 
-              "status": "Inactive" 
-            },
-            {
               "name": "NILESAT 101", 
-              "launch_date": "1998-04-21", 
+              "launch_date": "1998-04-27", 
               "status": "Inactive" 
             },
             {
               "name": "NILESAT 102", 
-              "launch_date": "1998-04-21", 
+              "launch_date": "2000-08-16", 
               "status": "Inactive" 
+            },
+            {
+              "name": "EGYPTSAT 1", 
+              "launch_date": "2007-04-16", 
+              "status": "Inactive",
+              "orbit_param": [2460601.414583333, 1.7554, 0.00058, 97.992, 314.475, 32.796, 327.361] 
             },
             {
               "name": "NILESAT 110", 
@@ -481,23 +482,18 @@
     {
         "country": "Kenya",
         "flag": "/country_flags/Kenya (KE).png",
-        "satellites": 3,
+        "satellites": 2,
         "first_launch_year": "2018",
         "satellites_list": [
             {
               "name": "1KUNS-PF",
-              "launch_date": "2018-05-11",
+              "launch_date": "2018-04-03",
               "status": "Inactive"
             },
             {
               "name": "Taifa-1",
-              "launch_date": "2023-04-14",
-              "status": "Active"
-            },
-            {
-              "name": "Taifa-2",
-              "launch_date": "2024-11-15",
-              "status": "Active"
+              "launch_date": "2023-04-13",
+              "status": "Inactive"
             }
           ]
           ,
@@ -878,7 +874,7 @@
     {
         "country": "South Africa",
         "flag": "/country_flags/South Africa (ZA).png",
-        "satellites": 13,
+        "satellites": 11,
         "first_launch_year": "1999",
         "satellites_list": [
             {

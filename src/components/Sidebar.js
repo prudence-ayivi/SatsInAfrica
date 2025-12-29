@@ -50,7 +50,7 @@ const Sidebar = () => {
         {isOpen && (
           <div className="flex items-center w-full">
             {mode === "about" ? (
-              <h2 className="text-sm ml-2 font-title font-bold md:text-2xl">
+              <h2 className="text-md ml-2 md:ml-4 font-title font-bold md:text-2xl">
                 About this project
               </h2>
             ) : (
@@ -78,7 +78,7 @@ const Sidebar = () => {
       {isOpen && (
         <div className="p-4 space-y-4">
           {mode === "about" ? (
-            <div className="text-justify font-sans space-y-3 text-md">
+            <div className="text-left md:text-justify font-sans space-y-3 text-md">
               <p>
                 This website is the data visualisation of the evolution of space
                 sector in Africa, mainly through satellite lunch and operation,
