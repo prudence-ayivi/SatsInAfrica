@@ -16,13 +16,11 @@ const CountryPage = ({ searchQuery }) => {
   const handleYearFilterChange = (selectedLaunchYears) => {
     setSelectedLaunchYears(selectedLaunchYears);
     // console.log("Selected Launch Years:", selectedLaunchYears);
-
   };
 
   const handleSatelliteFilterChange = (selectedSatelliteRanges) => {
     setSelectedSatelliteRanges(selectedSatelliteRanges);
     // console.log("Selected Number of Satellites:", selectedSatelliteRanges);
-
   };
 
   const filteredCountries = countryData.filter((country) => {

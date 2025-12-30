@@ -8,32 +8,38 @@
             {
               "name": "AlSat-1",
               "launch_date": "2002-11-28",
-              "status": "Inactive"
+              "status": "Inactive",
+              "mission": "Earth Observation"
             },
             {
               "name": "AlSat-2A",
-              "launch_date": "2010-07-12",
-              "status": "Active"
+              "launch_date": "2010-07-11",
+              "status": "Active", 
+              "mission": "Earth Observation"
             },
             {
               "name": "AlSat-1B",
-              "launch_date": "2016-09-26",
-              "status": "Active"
+              "launch_date": "2016-09-25",
+              "status": "Active",
+              "mission": "Earth Observation"
             },
             {
-              "name": "AlSat-1B",
-              "launch_date": "2017-11-28",
-              "status": "Inactive"
+              "name": "AlSat-2B",
+              "launch_date": "2016-09-25",
+              "status": "Active",
+              "mission": "Earth Observation"
             },
             {
               "name": "AlSat-1N",
-              "launch_date": "2018-11-28",
-              "status": "Active"
+              "launch_date": "2016-09-25",
+              "status": "Inactive", 
+              "mission": "Science - Experimental"
             },
             {
-              "name": "AlComSat 1",
-              "launch_date": "2019-11-28",
-              "status": "Active"
+              "name": "AlComSat-1",
+              "launch_date": "2017-12-10",
+              "status": "Active", 
+              "mission": "Communication"
             }
           ],
         "space_agency": {
@@ -57,12 +63,14 @@
             {
                 "name": "ANGOSAT 1",
                 "launch_date": "2017-12-26",
-                "status": "Inactive"
+                "status": "Inactive", 
+                "mission": "Communication"
             },
             {
                 "name": "ANGOSAT 2",
                 "launch_date": "2022-10-12",
-                "status": "Active"
+                "status": "Active", 
+                "mission": "Communication"
             }
         ],
         "space_agency": {
@@ -268,68 +276,93 @@
             {
               "name": "NILESAT 101", 
               "launch_date": "1998-04-27", 
-              "status": "Inactive" 
+              "status": "Inactive",
+              "mission": "Communication"               
             },
             {
               "name": "NILESAT 102", 
               "launch_date": "2000-08-16", 
-              "status": "Inactive" 
+              "status": "Inactive", 
+              "mission": "Communication" 
             },
             {
               "name": "EGYPTSAT 1", 
               "launch_date": "2007-04-16", 
               "status": "Inactive",
+              "mission": "Earth Observation",
               "orbit_param": [2460601.414583333, 1.7554, 0.00058, 97.992, 314.475, 32.796, 327.361] 
             },
             {
-              "name": "NILESAT 110", 
-              "launch_date": "2000-04-26", 
-              "status": "Inactive" 
-            },
-            {
               "name": "NILESAT 201", 
-              "launch_date": "2008-02-08", 
-              "status": "Active" 
+              "launch_date": "2010-08-03", 
+              "status": "Active", 
+              "mission": "Communication" 
             },
             {
-              "name": "EGS-2", 
-              "launch_date": "2009-04-17", 
-              "status": "Active" 
+              "name": "EGYPTSAT 2", 
+              "launch_date": "2014-04-15", 
+              "status": "Inactive", 
+              "mission": "Earth Observation" 
+            },
+            {
+              "name": "EGYPTSAT A", 
+              "launch_date": "2019-02-21", 
+              "status": "Active", 
+              "mission": "Earth Observation" 
+            },
+            {
+              "name": "NARSSCube-2", 
+              "launch_date": "2019-06-25", 
+              "status": "Inactive", 
+              "mission": "Experimental" 
+            },
+            {
+              "name": "NARSSCube-1", 
+              "launch_date": "2019-09-24", 
+              "status": "Inactive", 
+              "mission": "Experiemental" 
+            },
+            {
+              "name": "TIBA-1", 
+              "launch_date": "2019-96-26", 
+              "status": "Active", 
+              "mission": "Communication" 
             },
             {
               "name": "NILESAT 301", 
-              "launch_date": "2010-02-08", 
-              "status": "Active" 
+              "launch_date": "2022-06-07", 
+              "status": "Active", 
+              "mission": "Communication" 
             },
             {
-              "name": "EGS-3", 
-              "launch_date": "2018-04-08", 
-              "status": "Active" 
+              "name": "HORUS 1", 
+              "launch_date": "2023-02-24", 
+              "status": "Active", 
+              "mission": "Earth Observation" 
             },
             {
-              "name": "NILESAT 202", 
-              "launch_date": "2019-06-26", 
-              "status": "Active" 
+              "name": "HORUS 2", 
+              "launch_date": "2023-02-13", 
+              "status": "Active", 
+              "mission": "Earth Observation" 
             },
             {
-              "name": "NILESAT 302", 
-              "launch_date": "2022-04-17", 
-              "status": "Active" 
+              "name": "MISRSAT-2", 
+              "launch_date": "2023-12-04", 
+              "status": "Active", 
+              "mission": "Earth Observation" 
             },
             {
-              "name": "EGS-4", 
-              "launch_date": "2022-04-17", 
-              "status": "Active" 
-            },
+              "name": "NEXSAT-1", 
+              "launch_date": "2024-02-03", 
+              "status": "Active", 
+              "mission": "Earth Observation" 
+            }, 
             {
-              "name": "EGS-5", 
-              "launch_date": "2023-04-07", 
-              "status": "Active" 
-            },
-            {
-              "name": "NILESAT 303", 
-              "launch_date": "2023-04-07", 
-              "status": "Active" 
+              "name": "SPNeX", 
+              "launch_date": "2025-12-10", 
+              "status": "Active", 
+              "mission": "Science" 
             }
           ],
         "space_agency": {
@@ -604,7 +637,8 @@
             {
               "name": "MIR-SAT 1",
               "launch_date": "2021-06-22",
-              "status": "Active"
+              "status": "Inactive", 
+              "mission": "Experiemental"
             }
           ]
           ,
@@ -624,17 +658,20 @@
             {
               "name": "Mohammed VI-A",
               "launch_date": "2017-11-08",
-              "status": "Active"
+              "status": "Active", 
+              "mission": "Earth Observation"
             },
             {
               "name": "Mohammed VI-B",
               "launch_date": "2018-11-21",
-              "status": "Active"
+              "status": "Active", 
+              "mission": "Earth Observation"
             },
             {
               "name": "Maroc-TUBSAT",
               "launch_date": "2001-08-21",
-              "status": "Unknown" 
+              "status": "Inactive", 
+              "mission": "Earth Observation" 
             },
             {
               "name": "UM5-EOSat",
@@ -712,38 +749,45 @@
         "satellites_list":[
             {
               "name": "NigeriaSat-1",
-              "launch_date": "2003-09-27",
-              "status": "Inactive"
+              "launch_date": "2003-09-26",
+              "status": "Inactive",
+              "mission": "Earth Observation"
             },
             {
               "name": "NigComSat-1",
-              "launch_date": "2007-05-13",
-              "status": "Inactive"
+              "launch_date": "2007-05-12",
+              "status": "Inactive",
+              "mission": "Communication"
             },
             {
               "name": "NigeriaSat-2",
-              "launch_date": "2011-08-17",
-              "status": "Active"
+              "launch_date": "2011-08-16",
+              "status": "Active",
+              "mission": "Earth Observation"
             },
             {
               "name": "NigeriaSat-X",
-              "launch_date": "2011-08-17",
-              "status": "Active"
+              "launch_date": "2011-08-16",
+              "status": "Active",
+              "mission": "Earth Observation"
             },
             {
               "name": "NigComSat-1R",
               "launch_date": "2011-12-19",
-              "status": "Active"
+              "status": "Active", 
+              "mission": "Communication"
             },
             {
               "name": "NigeriaEduSat-1",
               "launch_date": "2017-06-03",
-              "status": "Inactive"
+              "status": "Inactive", 
+              "mission": "Communication"              
             },
             {
-              "name": "NigeriaSat-3",
-              "launch_date": "2024-10-15",
-              "status": "Active"
+              "name": "DELSAT-1",
+              "launch_date": "2022-11-10",
+              "status": "Active", 
+              "mission": "Military - Security"              
             }
           ]
           ,
@@ -874,73 +918,86 @@
     {
         "country": "South Africa",
         "flag": "/country_flags/South Africa (ZA).png",
-        "satellites": 11,
+        "satellites": 13,
         "first_launch_year": "1999",
-        "satellites_list": [
+        "satellites_list": [           
+            {
+              "name": "SUNSAT",
+              "launch_date": "1999-02-23",
+              "status": "Inactive", 
+              "mission": "Earth Observation" 
+            },
             {
               "name": "SumbandilaSat",
               "launch_date": "2009-09-18",
-              "status": "Inactive" 
+              "status": "Inactive", 
+              "mission": "Earth Observation" 
             },
             {
-              "name": "SunBird",
-              "launch_date": "2017-11-19",
-              "status": "Active" 
+              "name": "ZACUBE-1",
+              "launch_date": "2013-11-21",
+              "status": "Active", 
+              "mission": "Communication" 
             },
             {
-              "name": "TshepisoSat",
-              "launch_date": "2013-11-19",
-              "status": "Inactive" 
+              "name": "KONDOR-E",
+              "launch_date": "2014-12-19",
+              "status": "Inactive", 
+              "mission": "Earth Observation"               
             },
             {
-              "name": "ZA-CUBE-1",
-              "launch_date": "2013-06-19",
-              "status": "Inactive" 
+              "name": "NSIGHT",
+              "launch_date": "2017-04-18",
+              "status": "Inactive", 
+              "mission": "Science - Experimental" 
+            },
+             {
+              "name": "ZA-AEROSAT",
+              "launch_date": "2017-04-18",
+              "status": "Inactive", 
+              "mission": "Experiemental" 
             },
             {
               "name": "ZA-CUBE-2",
-              "launch_date": "2013-06-19",
-              "status": "Inactive" 
+              "launch_date": "2018-12-27",
+              "status": "Inactive", 
+              "mission": "Experiemental" 
             },
             {
-              "name": "ZA-CUBE-3",
-              "launch_date": "2013-06-19",
-              "status": "Inactive" 
+              "name": "MDASAT-1A",
+              "launch_date": "2022-01-13",
+              "status": "Inactive",
+              "mission": "Communication" 
             },
             {
-              "name": "ZingSat-1",
-              "launch_date": "2013-11-19",
-              "status": "Inactive" 
+              "name": "MDASAT-1B",
+              "launch_date": "2022-01-13",
+              "status": "Inactive",
+              "mission": "Communication" 
             },
             {
-              "name": "Matricsat",
-              "launch_date": "2014-06-18",
-              "status": "Inactive" 
+              "name": "MDASAT-1C",
+              "launch_date": "2022-01-13",
+              "status": "Inactive",
+              "mission": "Communication" 
             },
             {
-              "name": "Triton",
-              "launch_date": "2015-02-11",
-              "status": "Inactive" 
+              "name": "EOSSAT-1",
+              "launch_date": "2023-01-03",
+              "status": "Active",
+              "mission": "Earth Observation" 
             },
             {
-              "name": "MUSASAT-1",
-              "launch_date": "2018-06-12",
-              "status": "Active" 
+              "name": "Platform 2",
+              "launch_date": "2023-01-03",
+              "status": "Inactive",
+              "mission": "Experiemental" 
             },
             {
-              "name": "MUSASAT-2",
-              "launch_date": "2018-06-12",
-              "status": "Active" 
-            },
-            {
-              "name": "ZingSat-2",
-              "launch_date": "2019-06-22",
-              "status": "Active" 
-            },
-            {
-              "name": "CubeSat-1",
-              "launch_date": "2023-02-02",
-              "status": "Active" 
+              "name": "XinaBox ThinSat",
+              "launch_date": "2023-04-17",
+              "status": "Inactive",
+              "mission": "Educational" 
             }
           ],
         "space_agency": {
@@ -948,16 +1005,7 @@
             "creation_date": "2010",
             "budget": "$12 million"
         },
-        "space_projects": [
-            {
-                "name": "SUNSAT",
-                "launch_date": "1999-02-23"
-            },
-            {
-                "name": "SumbandilaSat",
-                "launch_date": "2009-09-17"
-            }
-        ]
+        "space_projects": []
     },
     {
         "country": "S. Sudan",

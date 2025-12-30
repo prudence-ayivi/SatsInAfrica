@@ -48,15 +48,6 @@ const Header = () => {
               <IoMdArrowDropdown className="text-sm mt-1 ml-2" />
             </a>
           </li>
-          <li>
-            <a
-              href="#about-section"
-              className="flex flex-row items-center font-sans cursor-pointer"
-            >
-              ABOUT
-              <IoMdArrowDropdown className="text-sm mt-1 ml-2" />
-            </a>
-          </li>
         </ul>
       </div>
 

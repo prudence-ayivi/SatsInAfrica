@@ -92,7 +92,7 @@ const Sidebar = () => {
                 voluntarily and free of charge. The data come exclusively from
                 open and accessible sources :<span className="font-bold">
                   {" "}
-                  Space in Africa, SpaceHubs Africa and In The Sky
+                  Space in Africa, SpaceHubs Africa, Space-Track and In The Sky
                 </span>. 
                 Particular attention has been paid to keeping the information as up to date as possible, especially
                 by considering the most recent space activities in Africa.

@@ -28,6 +28,10 @@ const SatelliteList = ({ satellites }) => {
             <span> {new Date(sat.launch_date).toLocaleDateString()}
             </span>
           </div>
+           {/* Troisièmr ligne : Mission du satellite */}
+           <div className="flex flex-row gap-6 w-full text-sm text-gray-600">
+            <span> Mission : {sat.mission} </span>
+          </div>
         </div>
       ))}
     </div>

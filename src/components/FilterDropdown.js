@@ -91,7 +91,7 @@ const FilterDropdown = ({
           <IoIosArrowDown className="text-xl cursor-pointer ml-1" />
         </button>
         {isYearOpen && (
-          <div className="mt-2 p-2 text-left text-left bg-white border rounded shadow max-h-40 overflow-y-auto">
+          <div className="mt-2 p-2 text-left bg-white border rounded shadow max-h-40 overflow-y-auto">
             {launchYears.map((year, index) => (
               <label key={index} className="block font-sans">
                 <input
