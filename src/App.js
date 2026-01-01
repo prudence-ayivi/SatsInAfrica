@@ -1,7 +1,7 @@
 import React from 'react';
 import LandingSection from "./components/LandingSection";
 import MapSection from "./components/MapSection";
-import OrbitSection from "./components/OrbitSection";
+import OrbitSimTest from './components/OrbitSimTest';
 import Footer from './components/Footer'; 
 import ChartSection from './components/ChartSection'
 import './App.css';
@@ -13,7 +13,7 @@ function App() {
     <LandingSection/>
     <MapSection/>
     <ChartSection/>
-    <OrbitSection/>
+    <OrbitSimTest/>
     <Footer/>
     </div>
   );

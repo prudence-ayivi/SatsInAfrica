@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import * as Spacekit from "spacekit.js";
 import satellitesData from "../utils/countries_complete.json";
 
-const OrbitSimulation = () => {
+const OrbitSection = () => {
   const simRef = useRef(null);
   const [sim, setSim] = useState(null);
   const [filterCountry, setFilterCountry] = useState("All");
@@ -26,7 +26,7 @@ const OrbitSimulation = () => {
 
     // Ajouter la Terre
     simulation.createObject("earth", Spacekit.SpaceObjectPresets.EARTH, {
-      textureUrl: "url('earth.jpg')",
+      textureUrl: "earth.jpg",
       radius: 4,
       showAtmosphere: true,
       debug: {
@@ -60,7 +60,7 @@ const OrbitSimulation = () => {
             },
             "deg"
           ),
-          textureUrl: "url('satellite01.jpg')",
+          textureUrl: "satellite01.jpg",
           scale: [0.5, 0.5, 0.5], // Échelle du satellite
           orbitPathSettings: {
             leadDurationYears: 0.2,
@@ -90,7 +90,7 @@ const OrbitSimulation = () => {
     <div className="relative w-screen h-screen">
       {/* Simulation */}
       {/* <canvas ref={simRef} className="absolute inset-0" /> */}
-      <div ref={simRef} className="absolute inset-0">
+      {/* <div ref={simRef} className="absolute inset-0"/> */}
 
       {/* UI Controls */}
       <div className="absolute top-4 left-4 bg-white/80  font-sans p-4 rounded-md shadow">
@@ -155,9 +155,9 @@ const OrbitSimulation = () => {
           </select>
         </div>
       </div>
-      </div>
+      {/* </div> */}
       </div>
   );
 };
 
-export default OrbitSimulation;
+export default OrbitSection;
