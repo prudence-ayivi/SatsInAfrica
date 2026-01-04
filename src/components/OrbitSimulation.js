@@ -7,7 +7,7 @@ const OrbitSimulation = () => {
   const satellitesRef = useRef([]);
   const [sim, setSim] = useState(null);
   const [filterCountry, setFilterCountry] = useState("All");
-  // const [showInactive, setShowInactive] = useState(true);
+  const [hideOrbits, setHideOrbits] = useState(false);
 
   useEffect(() => {
     if (!simRef.current) return;
@@ -76,7 +76,7 @@ const OrbitSimulation = () => {
             hideOrbit: false,
             theme: {
               orbitColor: sat.status === "Active" ? 0x00ff00 : 0xff0000,
-              color: "blue",
+              color: sat.status === "Active" ? 0x00ff00 : 0xff0000,
             },
             labelText: sat.name,
           });
@@ -179,9 +179,38 @@ const handleRemoveInactive = (e) => {
   });
 };
 
+const hideOrbit = (sat) => {
+  const orbit = sat.object.getOrbit?.();
+  if (orbit) {
+    orbit.setVisibility(false);
+  }
+};
+
+const showOrbit = (sat) => {
+  const orbit = sat.object.getOrbit?.();
+  if (orbit) {
+    orbit.setVisibility(true);
+  }
+};
+
+const handleHideOrbits = (e) => {
+  const checked = e.target.checked;
+  setHideOrbits(checked);
+
+  satellitesRef.current
+  .filter(sat => sat.isVisible)
+  .forEach((sat) => {
+    if (checked) {
+      hideOrbit(sat);
+    } else {
+      showOrbit(sat);
+    }
+  });
+};
+
 
   return (
-    <div className="relative w-screen h-screen bg-black">
+    <div id="orbit-section" className="relative w-screen h-screen bg-black">
       {/* Simulation */}
       <div ref={simRef} className="absolute inset-0" />
 
@@ -222,7 +251,7 @@ const handleRemoveInactive = (e) => {
         </div>
 
         {/* Filters */}
-        <div className="mb-2">
+        <div className="flex flex-row justify-center items-center gap-2 mb-2">
           <label className="flex justify-center items-center gap-2">
           <span>Remove Inactive</span>
             <input
@@ -232,9 +261,18 @@ const handleRemoveInactive = (e) => {
               className="w-4 h-4"
             />            
           </label>
+          <label className="flex justify-center items-center gap-2">
+          <span>Hide Orbit</span>
+            <input
+              type="checkbox"     
+              defaultChecked={hideOrbits}
+              onChange={handleHideOrbits}
+              className="w-4 h-4"
+            />            
+          </label>
         </div>
         <div className="flex flex-row justify-center items-center gap-2">
-          <label className="text-md">Filter by Country :</label>
+          <label className="text-sm md:text-md">Filter by Country :</label>
           <select
             value={filterCountry}
             onChange={(e) => setFilterCountry(e.target.value)}
