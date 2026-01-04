@@ -186,7 +186,7 @@ const handleRemoveInactive = (e) => {
       <div ref={simRef} className="absolute inset-0" />
 
       {/* UI Controls */}
-      <div className="absolute top-4 left-4 bg-white/50 font-sans p-3 rounded-md shadow-lg">
+      <div className="absolute top-2 md:top-4 left-2 md:left-4 bg-white/50 font-sans p-3 rounded-md shadow-lg">
         <h3 className="font-bold mb-2 text-md">Controls</h3>
         <div className="flex flex-wrap gap-2 mb-2 font-medium">
           <button
@@ -234,7 +234,7 @@ const handleRemoveInactive = (e) => {
           </label>
         </div>
         <div className="flex flex-row justify-center items-center gap-2">
-          <label>Filter by Country :</label>
+          <label className="text-md">Filter by Country :</label>
           <select
             value={filterCountry}
             onChange={(e) => setFilterCountry(e.target.value)}
