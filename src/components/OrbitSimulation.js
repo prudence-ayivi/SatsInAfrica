@@ -17,7 +17,7 @@ const OrbitSimulation = () => {
       unitsPerAu: 0.745,
       maxNumParticles: 2 ** 16,
       camera: {
-        initialPosition: [3, 2, 1],
+        initialPosition: [3, 3, 1],
         enableDrift: false,
       },
       startDate: new Date("2025-01-02T00:00:00Z"),
@@ -28,7 +28,7 @@ const OrbitSimulation = () => {
     // Ajouter la Terre 
     simulation.createSphere("Earth", {
       textureUrl: "../spacekit/earth.jpg",
-      // radius: 2, 
+      radius: 1.2, 
       debug: {
         showAxes: false,
       },
@@ -66,7 +66,7 @@ const OrbitSimulation = () => {
               },
               "deg"
             ),
-            particleSize: 5,
+            particleSize: 30,
             scale: [0.5, 0.5, 0.5],
             orbitPathSettings: {
               leadDurationYears: 0.2,
@@ -233,12 +233,12 @@ const handleRemoveInactive = (e) => {
             />            
           </label>
         </div>
-        <div>
-          <label className="block mb-1 font-medium text-sm">Filter by Country :</label>
+        <div className="flex flex-row justify-center items-center gap-2">
+          <label>Filter by Country :</label>
           <select
             value={filterCountry}
             onChange={(e) => setFilterCountry(e.target.value)}
-            className="border rounded p-2 w-[62] bg-white/50"
+            className="border rounded p-2 w-[60] bg-white/50"
           >
             <option value="All">All Countries</option>
             {satellitesData.map((c) => (
