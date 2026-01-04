@@ -187,35 +187,35 @@ const handleRemoveInactive = (e) => {
 
       {/* UI Controls */}
       <div className="absolute top-4 left-4 bg-white/50 font-sans p-3 rounded-md shadow-lg">
-        <h3 className="font-bold mb-2 text-lg">Controls</h3>
-        <div className="flex flex-wrap gap-2 mb-3 font-medium">
+        <h3 className="font-bold mb-2 text-md">Controls</h3>
+        <div className="flex flex-wrap gap-2 mb-2 font-medium">
           <button
             onClick={handlePlay}
-            className="px-2 py-1 bg-green-500 text-white rounded hover:bg-green-600 transition"
+            className="px-1 md:px-2 py-1 bg-green-500 text-white rounded hover:bg-green-600 transition"
           >
             Play
           </button>
           <button
             onClick={handlePause}
-            className="px-2 py-1 bg-[#082F91] text-white rounded hover:bg-blue-700 transition"
+            className="px-1 md:px-2 py-1 bg-[#082F91] text-white rounded hover:bg-blue-700 transition"
           >
             Pause
           </button>
           <button
             onClick={handleSpeedUp}
-            className="px-2 py-1 bg-[#D64045] text-white rounded hover:bg-red-600 transition"
+            className="px-1 md:px-2 py-1 bg-[#D64045] text-white rounded hover:bg-red-600 transition"
           >
             Speed Up
           </button>
           <button
             onClick={handleSlowDown}
-            className="px-2 py-1 bg-[#D64045] text-white rounded hover:bg-red-600 transition"
+            className="px-1 md:px-2 py-1 bg-[#D64045] text-white rounded hover:bg-red-600 transition"
           >
             Slow
           </button>
           <button
             onClick={handleReset}
-            className="px-2 py-1 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+            className="px-1 md:px-2 py-1 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
           >
             Reset
           </button>
@@ -234,7 +234,7 @@ const handleRemoveInactive = (e) => {
           </label>
         </div>
         <div>
-          <label className="block mb-1 font-medium text-sm">Filter by Country:</label>
+          <label className="block mb-1 font-medium text-sm">Filter by Country :</label>
           <select
             value={filterCountry}
             onChange={(e) => setFilterCountry(e.target.value)}
@@ -250,8 +250,8 @@ const handleRemoveInactive = (e) => {
         </div>
       </div>
       {/* Légende */}
-      <div className="absolute bottom-4 left-4 bg-white/55 p-3 rounded-md shadow-lg z-10 text-sm">
-        <h4 className="font-bold mb-2">Legend</h4>
+      <div className="absolute bottom-4 left-4 bg-white/55 p-2 rounded-md shadow-lg z-10 text-sm">
+        <h4 className="font-bold mb-1">Legend</h4>
         <div className="flex items-center gap-2 mb-1">
           <div className="w-3 h-3 bg-green-500 rounded-full"></div>
           <span>Active Satellites</span>
