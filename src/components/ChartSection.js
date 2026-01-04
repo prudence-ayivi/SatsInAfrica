@@ -50,9 +50,9 @@ const ChartSection = () => {
         </div>
 
         <div className="w-[97%] m-4">
-          <p className="flex flex-row items-center justify-center gap-8 bg-zinc-100 p-4 text-lg font-bold cursor-pointer" onClick={toggleDropdown}> 
+          <p className="flex flex-row items-center justify-center gap-4 bg-zinc-100 p-4 text-lg font-bold cursor-pointer" onClick={toggleDropdown}> 
           See the full list of all {totalSats} african satellites and their status
-          <CgArrowDownR />
+          <CgArrowDownR size={20}/>
           </p>
           {isDropdownOpen && <SatelliteList satellites={satelliteData} />}
         </div>

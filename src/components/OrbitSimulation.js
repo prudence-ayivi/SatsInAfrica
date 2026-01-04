@@ -4,9 +4,10 @@ import satellitesData from "../utils/countries_complete.json";
 
 const OrbitSimulation = () => {
   const simRef = useRef(null);
+  const satellitesRef = useRef([]);
   const [sim, setSim] = useState(null);
   const [filterCountry, setFilterCountry] = useState("All");
-  const [showInactive, setShowInactive] = useState(true);
+  // const [showInactive, setShowInactive] = useState(true);
 
   useEffect(() => {
     if (!simRef.current) return;
@@ -27,7 +28,7 @@ const OrbitSimulation = () => {
     // Ajouter la Terre 
     simulation.createSphere("Earth", {
       textureUrl: "../spacekit/earth.jpg",
-      radius: 1, // Ajustez selon vos besoins
+      // radius: 2, 
       debug: {
         showAxes: false,
       },
@@ -37,24 +38,26 @@ const OrbitSimulation = () => {
       },
     });
 
+    // Parcourir les satellites et les ajouter à la visualisation
     satellitesData.forEach((country) => {
        country.satellites_list?.forEach((sat) => {
         try {
-          // CORRECTION CRITIQUE : Vérifier que orbit_param existe et est un tableau
+          // Vérifier que orbit_param existe et est un tableau
           if (!sat.orbit_param || !Array.isArray(sat.orbit_param) || sat.orbit_param.length < 7) {
             return;
           }
+          // const label = `
+          // ${sat.name} \n
+          // ${sat.launch_date} \n
+          // ${sat.status}
+          // `;
           const [epoch, a, e, i, om, w, ma] = sat.orbit_param;
-          // Vérifier que les valeurs sont valides
-          if (epoch === undefined || a === undefined || e === undefined) {
-            return;
-          }
-
-          simulation.createObject(sat.name, {
+          const satObject = simulation.createObject(sat.name, {
             ephem: new Spacekit.Ephem(
               {
+                // Exemple TLE ou paramètres orbitaux
                 epoch: epoch,
-                a: a, // semi-major axis
+                a: a, // semi-major axis divided by 4000
                 e: e,
                 i: i,
                 om: om, // Right ascension of ascending node
@@ -63,7 +66,7 @@ const OrbitSimulation = () => {
               },
               "deg"
             ),
-            // particleSize: 2,
+            particleSize: 5,
             scale: [0.5, 0.5, 0.5],
             orbitPathSettings: {
               leadDurationYears: 0.2,
@@ -76,6 +79,12 @@ const OrbitSimulation = () => {
               color: "blue",
             },
             labelText: sat.name,
+          });
+          satellitesRef.current.push({
+            object: satObject,
+            status: sat.status,
+            country: country.country,
+            isVisible: true,
           });
 
         } catch (satError) {
@@ -91,34 +100,85 @@ const OrbitSimulation = () => {
   const handlePlay = () => {
     if (sim) {
       sim.start();
-    }
-  };
+    }};
 
   const handlePause = () => {
     if (sim) {
       sim.stop();
-    }
-  };
+    }};
+
+  // const handleReset = () => {
+  //   if (sim) {
+  //     sim.setDate(new Date("2025-01-02T00:00:00Z"));
+  //   }};
 
   const handleReset = () => {
-    if (sim) {
-      sim.setDate(new Date("2025-01-02T00:00:00Z"));
-    }
-  };
+  if (!sim) return;
+
+  sim.setDate(new Date("2025-01-02T00:00:00Z"));
+  sim.setJdPerSecond?.(100);
+  sim.start();
+};
 
   const handleSpeedUp = () => {
     if (sim) {
-      const currentRate = sim.getJdPerSecond?.() || 100;
-      sim.setJdPerSecond?.(currentRate * 2);
-    }
-  };
+      const currentSpeed = sim.getJdPerSecond?.() || 100;
+      sim.setJdPerSecond?.(currentSpeed * 2);
+    }};
 
   const handleSlowDown = () => {
     if (sim) {
-      const currentRate = sim.getJdPerSecond?.() || 100;
-      sim.setJdPerSecond?.(currentRate / 2);
+      const currentSpeed = sim.getJdPerSecond?.() || 100;
+      sim.setJdPerSecond?.(currentSpeed / 2);
+    }};
+
+const hideSatellite = (sat) => {
+  // Cacher le satellite (mesh)
+  if (sat.object._mesh) {
+    sat.object._mesh.visible = false;
+  }
+  // Cacher l’orbite
+  const orbit = sat.object.getOrbit?.();
+  if (orbit) {
+    orbit.setVisibility(false);
+  }
+  // Cacher le label
+  sat.object.setLabelVisibility(false);
+  sat.isVisible = false;
+};
+
+const showSatellite = (sat) => {
+  if (sat.object._mesh) {
+    sat.object._mesh.visible = true;
+  }
+  const orbit = sat.object.getOrbit?.();
+  if (orbit) {
+    orbit.setVisibility(true);
+  }
+  sat.object.setLabelVisibility(true);
+  sat.isVisible = true;
+};
+
+const handleRemoveInactive = (e) => {
+  const checked = e.target.checked;
+
+  satellitesRef.current.forEach((sat) => {
+    // Filtre pays
+    if (filterCountry !== "All" && sat.country !== filterCountry) {
+      return;
     }
-  };
+
+    if (sat.status === "Inactive") {
+      if (!checked && sat.isVisible) {
+        hideSatellite(sat);
+      }
+      if (checked && !sat.isVisible) {
+        showSatellite(sat);
+      }
+    }
+  });
+};
+
 
   return (
     <div className="relative w-screen h-screen bg-black">
@@ -126,18 +186,18 @@ const OrbitSimulation = () => {
       <div ref={simRef} className="absolute inset-0" />
 
       {/* UI Controls */}
-      <div className="absolute top-4 left-4 bg-white/90 font-sans p-4 rounded-md shadow-lg">
-        <h3 className="font-bold mb-2 text-lg">Orbit Controls</h3>
+      <div className="absolute top-4 left-4 bg-white/50 font-sans p-3 rounded-md shadow-lg">
+        <h3 className="font-bold mb-2 text-lg">Controls</h3>
         <div className="flex flex-wrap gap-2 mb-3 font-medium">
           <button
             onClick={handlePlay}
-            className="px-3 py-1 bg-green-500 text-white rounded hover:bg-green-600 transition"
+            className="px-2 py-1 bg-green-500 text-white rounded hover:bg-green-600 transition"
           >
             Play
           </button>
           <button
             onClick={handlePause}
-            className="px-3 py-1 bg-[#082F91] text-white rounded hover:bg-blue-700 transition"
+            className="px-2 py-1 bg-[#082F91] text-white rounded hover:bg-blue-700 transition"
           >
             Pause
           </button>
@@ -163,12 +223,12 @@ const OrbitSimulation = () => {
 
         {/* Filters */}
         <div className="mb-2">
-          <label className="flex items-center gap-2">
+          <label className="flex justify-center items-center gap-2">
           <span>Remove Inactive</span>
             <input
-              type="checkbox"
-              checked={showInactive}
-              onChange={() => setShowInactive(!showInactive)}
+              type="checkbox"     
+              defaultChecked
+              onChange={handleRemoveInactive}
               className="w-4 h-4"
             />            
           </label>
@@ -178,7 +238,7 @@ const OrbitSimulation = () => {
           <select
             value={filterCountry}
             onChange={(e) => setFilterCountry(e.target.value)}
-            className="border rounded p-2 w-full"
+            className="border rounded p-2 w-[62] bg-white/50"
           >
             <option value="All">All Countries</option>
             {satellitesData.map((c) => (
@@ -187,6 +247,18 @@ const OrbitSimulation = () => {
               </option>
             ))}
           </select>
+        </div>
+      </div>
+      {/* Légende */}
+      <div className="absolute bottom-4 left-4 bg-white/55 p-3 rounded-md shadow-lg z-10 text-sm">
+        <h4 className="font-bold mb-2">Legend</h4>
+        <div className="flex items-center gap-2 mb-1">
+          <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+          <span>Active Satellites</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <div className="w-3 h-3 bg-red-500 rounded-full"></div>
+          <span>Inactive Satellites</span>
         </div>
       </div>
     </div>
