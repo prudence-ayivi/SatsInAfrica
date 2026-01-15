@@ -2,7 +2,7 @@
     {
         "country": "Algeria",
         "flag": "/country_flags/Algeria (DZ).png",
-        "satellites": 6,
+        "satellites": 7,
         "first_launch_year": "2002",
         "satellites_list":[
             {
@@ -40,6 +40,12 @@
               "launch_date": "2017-12-10",
               "status": "Active", 
               "mission": "Communication"
+            },
+            {
+              "name": "AlSat-3A",
+              "launch_date": "2025-01-15",
+              "status": "Active", 
+              "mission": "Earth Observation"
             }
           ],
         "space_agency": {

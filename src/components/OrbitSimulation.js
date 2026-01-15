@@ -272,7 +272,7 @@ const handleHideOrbits = (e) => {
           </label>
         </div>
         <div className="flex flex-row justify-center items-center gap-2">
-          <label className="text-sm md:text-md">Filter by Country :</label>
+          <label className="text-md">Filter by Country</label>
           <select
             value={filterCountry}
             onChange={(e) => setFilterCountry(e.target.value)}
