@@ -27,7 +27,7 @@ const SatelliteLaunchesChart = ({ data }) => {
 
   return (
     <div className="font-bold w-full h-full flex flex-col items-center justify-center p-[5px]">
-      <h3>Satellites lunch per year</h3>
+      <h3>Satellites launches per year</h3>
       <Bar
         data={chartData}
         options={{

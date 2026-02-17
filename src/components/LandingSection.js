@@ -38,7 +38,7 @@ const LandingSection = () => {
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center">
         <h1 className="text-5xl font-title font-bold mb-4">Sats In Africa</h1>
-        <p className="text-lg mb-8">Visualize African Space Industry</p>
+        <p className="text-lg mb-8">The most accurate african satellites data app</p>
 
         {/* Explore Button */}
         <a
@@ -66,13 +66,9 @@ const LandingSection = () => {
       </div>
 
       {/* Scroll Down Icon */}
-      <a
-        href="#map-section"
-        className="absolute bottom-12 text-4xl animate-bounce cursor-pointer transition-all duration-200 ease-in-out"
-        style={{ strokeWidth: "0.5" }}
-      >
-        <SlArrowDown />
-      </a>
+       <SlArrowDown 
+          className="absolute bottom-12 text-4xl animate-bounce transition-all duration-200 ease-in-out"
+        />
     </div>
   );
 };

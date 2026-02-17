@@ -43,7 +43,7 @@ const CountryList = ({ countries }) => {
                   <div className="font-sans">First launch year :</div>
                   <div className="text-right font-sans">{country.first_launch_year || "N/A"}</div>
                   <div className="font-sans">Project in progress :</div>
-                  <div className="text-right font-sans">{country.space_projects.project_name || "None"}</div>
+                  <div className="text-right font-sans">{country.space_projects?.[0]?.project_name || "None"}</div>
                 </div>
               </div>
 

@@ -39,7 +39,7 @@ const CountriesBySatelliteRangeChart = ({ data }) => {
 
   return (
     <div className="font-bold w-full h-full flex flex-col items-center justify-center">
-      <h3>Countries by number of satellites</h3>
+      <h3>Countries ranked by number of satellites</h3>
       <div>
         <Pie
           data={chartData}

@@ -45,13 +45,13 @@ const ChartSection = () => {
             Satellites launched by African Countries
           </h1>
           <p className="text-lg px-2 md:text-xl text-gray-600">
-            A quick overview of space exploration activities in Africa
+            A quick overview of the african space activities 
           </p>
         </div>
 
         <div className="w-[97%] m-4">
           <p className="flex flex-row items-center justify-center gap-4 bg-zinc-100 p-4 text-lg font-bold cursor-pointer" onClick={toggleDropdown}> 
-          See the full list of all {totalSats} african satellites and their status
+          See the full list and details of all {totalSats} african satellites 
           <CgArrowDownR size={20}/>
           </p>
           {isDropdownOpen && <SatelliteList satellites={satelliteData} />}
