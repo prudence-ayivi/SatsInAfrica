@@ -735,7 +735,7 @@
         },
         "space_projects": [
             {
-                "project_name": "AlSat-NextGen",
+                "project_name": "Satellite",
                 "status": "In progress"
             }
         ]
@@ -1064,7 +1064,7 @@
         },
         "space_projects": [
             {
-                "project_name": "AlSat-NextGen",
+                "project_name": "TanzaniteSat-1",
                 "status": "In progress"
             }
         ]

@@ -210,7 +210,7 @@ const handleHideOrbits = (e) => {
 
 
   return (
-    <div id="orbit-section" className="relative w-screen h-screen overflow-x-hidden bg-black">
+    <div id="orbit-section" className="relative h-screen overflow-x-hidden bg-black">
       {/* Simulation */}
       <div ref={simRef} className="absolute inset-0" />
 
@@ -288,7 +288,7 @@ const handleHideOrbits = (e) => {
         </div>
       </div>
       {/* Légende */}
-      <div className="absolute bottom-4 left-2 bg-white/55 p-2 rounded-md shadow-lg z-10 text-sm">
+      <div className="absolute bottom-4 left-4 bg-white/55 p-2 rounded-md shadow-lg z-10 text-sm">
         <h4 className="font-bold mb-1">Legend</h4>
         <div className="flex items-center gap-2 mb-1">
           <div className="w-3 h-3 bg-green-500 rounded-full"></div>
