@@ -38,7 +38,7 @@ const LandingSection = () => {
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center">
         <h1 className="text-5xl font-title font-bold mb-4">Sats In Africa</h1>
-        <p className="text-lg mb-8">The most accurate african satellites data app</p>
+        <p className="text-lg mx-3 md:mx-0 mb-8">The most accurate african satellites data app</p>
 
         {/* Explore Button */}
         <a

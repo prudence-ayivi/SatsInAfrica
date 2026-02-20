@@ -17,7 +17,10 @@
               "name": "AlSat-2A",
               "launch_date": "2010-07-11",
               "status": "Active", 
-              "mission": "Earth Observation"
+              "mission": "Earth Observation", 
+              "orbit_type" : "SSO",
+              "satellite_type": "Microsat", 
+              "orbit_param": [2461091.7866, 7030.0, 0.0001028, 97.7641, 58.7016, 90.0102, 270.1224]
             },
             {
               "name": "AlSat-1B",

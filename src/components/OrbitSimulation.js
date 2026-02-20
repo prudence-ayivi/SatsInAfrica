@@ -56,10 +56,10 @@ const OrbitSimulation = () => {
             ephem: new Spacekit.Ephem(
               {
                 // Exemple TLE ou paramètres orbitaux
-                epoch: epoch,
+                epoch: epoch, // in Julian Date 
                 a: a/4000, // semi-major axis divided by 4000
-                e: e,
-                i: i,
+                e: e, // eccentricity
+                i: i, // inclination
                 om: om, // Right ascension of ascending node
                 w: w, // Arg of periapsis
                 ma: ma, // mean anomaly

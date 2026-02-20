@@ -100,12 +100,10 @@ const Sidebar = () => {
                 established space agencies have been included. In some countries,
                 space programs are managed by universities or governmental
                 entities, but without the legal status of a national space
-                agency. This distinction was made to highlight recognized
-                institutions, while underlining that the African space sector is
-                still in the process of structuring and development.
+                agency. 
               </p>
               <p>              
-                Particular attention has been paid to keeping the information as up to date as possible, especially
+                Efforts will me made to keep the information as up to date as possible, especially
                 by considering the most recent space activities in Africa.
               </p>
             </div>

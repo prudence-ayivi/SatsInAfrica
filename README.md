@@ -1,10 +1,10 @@
-# Technical Overview
+# Project Overview
 
-## Project Description
+## Description
 
-This project is an interactive web-based platform designed to visualize satellite and related data, lunched by African nations, for education purposes. It combines statistical data visualization with a real-time 3D orbital simulation to provide both analytical insights and a dynamic spatial representation of all african satellites.
+This project is an interactive web-based platform designed to visualize satellite and related data, lunched by African nations, for education purposes. It combines data visualization (charts and maps) with a real-time 3D orbital simulation to provide both analytical insights and a dynamic spatial representation of all african satellites.
 
-The goal is to make global space activity more understandable through accessible and interactive tools.
+The goal is to make the space activity on the continent more understandable through accessible and interactive tools.
 
 ---
 
@@ -52,7 +52,7 @@ The platform includes several visual tools:
 
 * Pie charts (e.g., countries with space agencies vs. without)
 * Bar charts (number of satellites per country)
-* Grouped ranges to reflect satellite distribution levels
+* Grouped ranges to reflect satellite distribution levels (1, 2–3, 4-5, 6–8, 9-10, 11–20)
 
 Charts are structured to highlight global disparities and the evolution of space activity among different african nations.
 
