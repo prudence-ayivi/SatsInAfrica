@@ -108,7 +108,7 @@ const Map = () => {
                   key={geo.rsmKey}
                   geography={geo}
                   stroke="black"
-                  strokeWidth={0.2}
+                  strokeWidth={0.3}
                   onMouseEnter={() => setTooltipContent(country)}
                   style={{
                     default: { fill: color },

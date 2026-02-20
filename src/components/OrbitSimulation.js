@@ -34,7 +34,7 @@ const OrbitSimulation = () => {
       },
       rotation: {
         enable: true,
-        speed: 0.5,
+        speed: 0.35,
       },
     });
 
@@ -47,9 +47,9 @@ const OrbitSimulation = () => {
             return;
           }
           // const label = `
-          // ${sat.name} \n
-          // ${sat.launch_date} \n
-          // ${sat.status}
+          // ${sat.name} |\n
+          // ${sat.launch_date} | \n
+          // ${sat.status} \n
           // `;
           const [epoch, a, e, i, om, w, ma] = sat.orbit_param;
           const satObject = simulation.createObject(sat.name, {
@@ -57,7 +57,7 @@ const OrbitSimulation = () => {
               {
                 // Exemple TLE ou paramètres orbitaux
                 epoch: epoch,
-                a: a, // semi-major axis divided by 4000
+                a: a/4000, // semi-major axis divided by 4000
                 e: e,
                 i: i,
                 om: om, // Right ascension of ascending node
@@ -78,7 +78,7 @@ const OrbitSimulation = () => {
               orbitColor: sat.status === "Active" ? 0x00ff00 : 0xff0000,
               color: sat.status === "Active" ? 0x00ff00 : 0xff0000,
             },
-            labelText: sat.name,
+            labelText: sat.name // label,
           });
           satellitesRef.current.push({
             object: satObject,
@@ -163,11 +163,6 @@ const handleRemoveInactive = (e) => {
   const checked = e.target.checked;
 
   satellitesRef.current.forEach((sat) => {
-    // Filtre pays
-    if (filterCountry !== "All" && sat.country !== filterCountry) {
-      return;
-    }
-
     if (sat.status === "Inactive") {
       if (!checked && sat.isVisible) {
         hideSatellite(sat);
@@ -208,6 +203,10 @@ const handleHideOrbits = (e) => {
   });
 };
 
+// Filtre pays, avec au moins un satellite
+const countriesWithSats = satellitesData.filter(
+  (c) => Array.isArray(c.satellites_list) && c.satellites_list.length > 0
+);
 
   return (
     <div id="orbit-section" className="relative h-screen overflow-x-hidden bg-black">
@@ -215,7 +214,7 @@ const handleHideOrbits = (e) => {
       <div ref={simRef} className="absolute inset-0" />
 
       {/* UI Controls */}
-      <div className="absolute top-2 md:top-4 left-2 md:left-4 bg-white/50 font-sans p-3 rounded-md shadow-lg">
+      <div className="absolute top-1 md:top-4 left-3 md:left-4 bg-white/50 font-sans p-3 rounded-md shadow-lg">
         <h3 className="font-bold mb-2 text-md">Controls</h3>
         <div className="flex flex-wrap gap-2 mb-2 font-medium">
           <button
@@ -276,10 +275,10 @@ const handleHideOrbits = (e) => {
           <select
             value={filterCountry}
             onChange={(e) => setFilterCountry(e.target.value)}
-            className="border rounded p-2 w-[60] bg-white/50"
+            className="border rounded p-2 w-[62] bg-white/50"
           >
             <option value="All">All Countries</option>
-            {satellitesData.map((c) => (
+            {countriesWithSats.map((c) => (
               <option key={c.country} value={c.country}>
                 {c.country}
               </option>
@@ -290,7 +289,7 @@ const handleHideOrbits = (e) => {
       {/* Légende */}
       <div className="absolute bottom-4 left-4 bg-white/55 p-2 rounded-md shadow-lg z-10 text-sm">
         <h4 className="font-bold mb-1">Legend</h4>
-        <div className="flex items-center gap-2 mb-1">
+        <div className="flex items-center gap-2">
           <div className="w-3 h-3 bg-green-500 rounded-full"></div>
           <span>Active Satellites</span>
         </div>
