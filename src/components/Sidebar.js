@@ -89,22 +89,24 @@ const Sidebar = () => {
               <p>
                 This project is entirely{" "}
                 <span className="font-bold">open source</span>, carried out
-                voluntarily and free of charge. The data come exclusively from
+                voluntarily and free of charge. The data come from
                 open and accessible sources :<span className="font-bold">
                   {" "}
                   Space in Africa, SpaceHubs Africa, Space-Track and In The Sky
-                </span>. 
-                Particular attention has been paid to keeping the information as up to date as possible, especially
-                by considering the most recent space activities in Africa.
-              </p>
+                </span>.
+              </p>               
               <p>
                 To ensure clarity in comparisons, only formal and officially
-                established space agencies have been included. In some cases,
+                established space agencies have been included. In some countries,
                 space programs are managed by universities or governmental
                 entities, but without the legal status of a national space
                 agency. This distinction was made to highlight recognized
                 institutions, while underlining that the African space sector is
                 still in the process of structuring and development.
+              </p>
+              <p>              
+                Particular attention has been paid to keeping the information as up to date as possible, especially
+                by considering the most recent space activities in Africa.
               </p>
             </div>
           ) : (
@@ -115,7 +117,7 @@ const Sidebar = () => {
         </div>
       )}
 
-      {/* Icône du point d'interrogation en bas (disparaît quand la sidebar est ouverte) */}
+      {/* About the project (only when sidebar is closed) */}
       {!isOpen && (
         <div className="self-center">
           <hr className="border-t-1 border-black w-full mb-3" />

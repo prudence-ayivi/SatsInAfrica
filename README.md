@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Technical Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This project is an interactive web-based platform designed to visualize satellite and related data, lunched by African nations, for education purposes. It combines statistical data visualization with a real-time 3D orbital simulation to provide both analytical insights and a dynamic spatial representation of all african satellites.
 
-In the project directory, you can run:
+The goal is to make global space activity more understandable through accessible and interactive tools.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technology Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project is built using the following technologies:
 
-### `npm test`
+* **React.js** – Frontend development and UI structure
+* **JavaScript (ES6+)** – Core logic and data processing
+* **Recharts** – Statistical charts and data visualization
+* **React Simple Maps** – Interactive world map display
+* **SpaceKit** – 3D Earth and orbital simulation engine
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Data Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Satellite data is stored in a structured **JSON database** containing:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Satellite name
+* Country of origin
+* Operational status (Active / Inactive)
+* Orbital parameters
+* Launch-related metadata
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This approach ensures flexibility and scalability. New satellites can easily be added, and existing data can be updated as new information becomes available.
 
-### `npm run eject`
+The project is designed to evolve continuously as satellite activity increases.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Orbital Simulation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The 3D simulation is based on the **seven classical orbital elements**, which define each satellite’s trajectory. These parameters are passed to SpaceKit to generate realistic orbital motion around the Earth.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Currently, **TLE (Two-Line Element) data is not integrated**, but it may be considered in future updates to improve accuracy and allow real-time orbit synchronization.
 
-## Learn More
+The simulation runs from a defined reference date to ensure consistent orbital propagation.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Data Visualization
 
-### Code Splitting
+The platform includes several visual tools:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Pie charts (e.g., countries with space agencies vs. without)
+* Bar charts (number of satellites per country)
+* Grouped ranges to reflect satellite distribution levels
 
-### Analyzing the Bundle Size
+Charts are structured to highlight global disparities and the evolution of space activity among different african nations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Map Limitations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Some small island nations (such as Mauritius) may not appear clearly due to geographic dataset resolution limitations in the map files. This is related to the underlying GeoJSON/TopoJSON structure and not to missing data in the project.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Future Improvements
 
-### Deployment
+The project remains open to expansion and technical improvements include:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 1. 3D Visualization Expansion
 
-### `npm run build` fails to minify
+* Add **all available satellites** to the 3D visualization.
+* Implement filtering satellites by country.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 2. Satellite Type Analysis
+
+* Add a chart showing the **ratio by satellite category**:
+
+  * Nano-satellites
+  * Micro-satellites
+  * Mini-satellites
+  * Larger classes
+
+### 3. Orbital Distribution Analysis
+
+* Add a chart comparing satellite distribution by **orbit type**:
+
+  * LEO
+  * MEO
+  * GEO
+  * Other orbital classifications
+
+---
+
+## Conclusion
+
+This project combines data visualization, orbital mechanics, and interactive simulation to provide a comprehensive view of african satellites. It is structured to remain scalable, adaptable, and continuously updatable as new satellites are launched and new data becomes available.

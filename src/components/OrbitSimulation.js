@@ -134,7 +134,7 @@ const OrbitSimulation = () => {
 
 const hideSatellite = (sat) => {
   // Cacher le satellite (mesh)
-  if (sat.object._mesh) {
+  if (sat.object_mesh) {
     sat.object._mesh.visible = false;
   }
   // Cacher l’orbite
@@ -164,10 +164,9 @@ const handleRemoveInactive = (e) => {
 
   satellitesRef.current.forEach((sat) => {
     if (sat.status === "Inactive") {
-      if (!checked && sat.isVisible) {
+      if (checked) {
         hideSatellite(sat);
-      }
-      if (checked && !sat.isVisible) {
+      } else {
         showSatellite(sat);
       }
     }
@@ -254,8 +253,8 @@ const countriesWithSats = satellitesData.filter(
           <label className="flex justify-center items-center gap-2">
           <span>Remove Inactive</span>
             <input
-              type="checkbox"     
-              defaultChecked
+              type="checkbox" 
+              defaultChecked={false}    
               onChange={handleRemoveInactive}
               className="w-4 h-4"
             />            
