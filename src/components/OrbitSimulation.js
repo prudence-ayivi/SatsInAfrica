@@ -242,7 +242,7 @@ const countriesWithSats = satellitesData.filter(
           </button>
           <button
             onClick={handleReset}
-            className="px-1 md:px-2 py-1 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+            className="px-1 md:px-2 py-1 bg-[#2D5BD2] text-white rounded hover:bg-[#082F91] transition"
           >
             Reset
           </button>

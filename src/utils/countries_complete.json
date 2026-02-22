@@ -10,53 +10,65 @@
               "launch_date": "2002-11-28",
               "status": "Inactive",
               "mission": "Earth Observation", 
-              "orbit_type" : "SSO",
-              "satellite_type": "Microsat"
+              "satellite_type": "Microsat",
+              "orbit_type" : "LEO"
             },
             {
               "name": "AlSat-2A",
               "launch_date": "2010-07-11",
               "status": "Active", 
               "mission": "Earth Observation", 
-              "orbit_type" : "SSO",
               "satellite_type": "Microsat", 
+              "orbit_type" : "LEO",
               "orbit_param": [2461091.7866, 7030.0, 0.0001028, 97.7641, 58.7016, 90.0102, 270.1224]
             },
             {
               "name": "AlSat-1B",
               "launch_date": "2016-09-25",
               "status": "Active",
-              "mission": "Earth Observation"
+              "mission": "Earth Observation", 
+              "satellite_type": "Minisat",
+              "orbit_type":"LEO"
             },
             {
               "name": "AlSat-2B",
               "launch_date": "2016-09-25",
               "status": "Active",
-              "mission": "Earth Observation"
+              "mission": "Earth Observation", 
+              "satellite_type": "Minisat",
+              "orbit_type":"LEO"
             },
             {
               "name": "AlSat-1N",
               "launch_date": "2016-09-25",
-              "status": "Inactive", 
-              "mission": "Science - Experimental"
+              "status": "Active", 
+              "mission": "Science - Experimental", 
+              "satellite_type": "Nanosat", 
+              "orbit_type": "LEO"
             },
             {
               "name": "AlComSat-1",
               "launch_date": "2017-12-10",
               "status": "Active", 
-              "mission": "Communication"
+              "mission": "Communication", 
+              "satellite_type": "Largesat", 
+              "orbit_type": "GEO"
             },
             {
               "name": "AlSat-3A",
               "launch_date": "2026-01-15",
               "status": "Active", 
-              "mission": "Earth Observation"
+              "mission": "Earth Observation", 
+              "satellite_type": "Minisat",
+              "orbit_type": "LEO"
             }, 
             {
               "name": "ALSAT-3B",
               "launch_date": "2026-01-30",
               "status": "Active", 
-              "mission": "Earth Observation"
+              "mission": "Earth Observation", 
+              "satellite_type": "Minisat",
+              "orbit_type": "LEO"
             }
           ],
         "space_agency": {
@@ -82,16 +94,18 @@
                 "launch_date": "2017-12-26",
                 "status": "Inactive", 
                 "mission": "Communication", 
-                "orbit_type" : "LEO | MEO | GEO | SSO | Polar ", 
-                "satellite_type": "Nanosat (Cubesat) | Microsat | Minisat (2-6kg) | Medium Sat | Large Sat"
+                "satellite_type": "Largesat",
+                "orbit_type" : "GEO", 
+                "orbit_param": [2461093.6762, 42164.2, 0.0019718, 7.2912, 68.6220, 179.2261, 178.1164]
             },
             {
                 "name": "ANGOSAT 2",
                 "launch_date": "2022-10-12",
                 "status": "Active", 
                 "mission": "Communication", 
-                "orbit_type" : "LEO | MEO | GEO | SSO", 
-                "satellite_type": "Nanosat (Cubesat) | Microsat | Minisat (2-6kg) | Medium Sat | Large Sat"
+                "satellite_type": "Largesat",
+                "orbit_type" : "GEO", 
+                "orbit_param": [2461093.8201, 42163.8, 0.0000319, 0.0112, 185.2394, 268.4463, 196.7790]
             }
         ],
         "space_agency": {
@@ -112,6 +126,8 @@
             "creation_date": "",
             "budget": ""
         },
+        "orbit_type" : "LEO | MEO | GEO ",
+        "satellite_type": "Nanosat (Cubesat) | Microsat | Minisat (2-6kg) | Mediumsat | Largesat",
         "space_projects": []
     },
     {
@@ -125,9 +141,9 @@
             "launch_date": "2025-03-15",
             "status": "Active", 
             "mission": "Earth Observation", 
-            "orbit_type" : "LEO | MEO | GEO | SSO",
-            "satellite_type": "Nanosat (Cubesat) | Microsat | Minisat (2-6kg) | Medium Sat | Large Sat",
-            "orbit_param": [2460371.0792, 6828.4, 0.00083, 97.439, 84.585, 248.453, 111.583]
+            "satellite_type": "Nanosat",
+            "orbit_type" : "LEO",
+            "orbit_param": [2461093.7215, 6874.8, 0.0003180, 97.4016, 308.2901, 130.8787, 229.2726]
         }
         ],
         "space_agency": {
@@ -275,13 +291,18 @@
                 "launch_date": "2023-11-11",
                 "status": "Active", 
                 "mission": "Earth Observation", 
-                "orbit_param": [2460371.0792, 6828.4, 0.00083, 97.439, 84.585, 248.453, 111.583]
+                "satellite_type": "Nanosat",
+                "orbit_type": "LEO",
+                "orbit_param": [2460861.0250, 6768.2, 0.0013709, 97.3833, 337.9341, 274.4654, 85.5077]
             },
             {
                 "name": "Djibouti-1B",
                 "launch_date": "2024-12-21",
                 "status": "Active", 
-                "mission": "Earth Observation"
+                "mission": "Earth Observation", 
+                "satellite_type": "Nanosat", 
+                "orbit_type": "LEO", 
+                "orbit_param" : [2461093.8018, 6832.6, 0.0008990, 44.9740, 173.3140, 281.0714, 78.9165]
             }
         ],
         "space_agency": {
@@ -301,92 +322,122 @@
               "name": "NILESAT 101", 
               "launch_date": "1998-04-27", 
               "status": "Inactive",
-              "mission": "Communication"               
+              "mission": "Communication", 
+              "satellite_type": "Largesat",
+              "orbit_type": "GEO"              
             },
             {
               "name": "NILESAT 102", 
               "launch_date": "2000-08-16", 
               "status": "Inactive", 
-              "mission": "Communication" 
+              "mission": "Communication", 
+              "satellite_type": "Largesat",
+              "orbit_type": "GEO" 
             },
             {
               "name": "EGYPTSAT 1", 
               "launch_date": "2007-04-16", 
               "status": "Inactive",
               "mission": "Earth Observation",
+              "satellite_type": "Minisat",
+              "orbit_type": "LEO",
               "orbit_param": [2460601.414583333, 7021.6, 0.00058, 97.992, 314.475, 32.796, 327.361] 
             },
             {
               "name": "NILESAT 201", 
               "launch_date": "2010-08-03", 
               "status": "Active", 
-              "mission": "Communication" 
+              "mission": "Communication", 
+              "satellite_type": "Largesat",
+              "orbit_type": "GEO" 
             },
             {
               "name": "EGYPTSAT 2", 
               "launch_date": "2014-04-15", 
               "status": "Inactive", 
-              "mission": "Earth Observation" 
+              "mission": "Earth Observation", 
+              "satellite_type": "Largesat",
+              "orbit_type": "LEO"
             },
             {
               "name": "EGYPTSAT A", 
               "launch_date": "2019-02-21", 
               "status": "Active", 
-              "mission": "Earth Observation" 
-            },
-            {
-              "name": "NARSSCube-2", 
-              "launch_date": "2019-06-25", 
-              "status": "Inactive", 
-              "mission": "Experimental" 
+              "mission": "Earth Observation", 
+              "satellite_type": "Mediumsat",
+              "orbit_type": "LEO" 
             },
             {
               "name": "NARSSCube-1", 
               "launch_date": "2019-09-24", 
               "status": "Inactive", 
-              "mission": "Experiemental" 
+              "mission": "Experiemental", 
+              "satellite_type": "Nanosat", 
+              "orbit_type": "LEO" 
+            },
+            {
+              "name": "NARSSCube-2", 
+              "launch_date": "2019-06-25", 
+              "status": "Inactive", 
+              "mission": "Experimental", 
+              "satellite_type": "Nanosat", 
+              "orbit_type": "LEO"  
             },
             {
               "name": "TIBA-1", 
               "launch_date": "2019-11-26", 
               "status": "Active", 
-              "mission": "Communication" 
+              "mission": "Communication", 
+              "satellite_type": "Largesat", 
+              "orbit_type": "GEO"  
             },
             {
               "name": "NILESAT 301", 
               "launch_date": "2022-06-07", 
               "status": "Active", 
-              "mission": "Communication" 
+              "mission": "Communication", 
+              "satellite_type": "Largesat",
+              "orbit_type": "GEO"
             },
             {
               "name": "HORUS 1", 
               "launch_date": "2023-02-24", 
               "status": "Active", 
-              "mission": "Earth Observation" 
+              "mission": "Earth Observation", 
+              "satellite_type": "", 
+              "orbit_type": "LEO" 
             },
             {
               "name": "HORUS 2", 
               "launch_date": "2023-02-13", 
               "status": "Active", 
-              "mission": "Earth Observation" 
+              "mission": "Earth Observation", 
+              "satellite_type": "", 
+              "orbit_type": "LEO"
             },
             {
               "name": "MISRSAT-2", 
               "launch_date": "2023-12-04", 
               "status": "Active", 
-              "mission": "Earth Observation" 
+              "mission": "Earth Observation", 
+              "satellite_type": "Minisat", 
+              "orbit_type": "LEO" 
             },
             {
               "name": "NEXSAT-1", 
               "launch_date": "2024-02-03", 
               "status": "Active", 
-              "mission": "Earth Observation" 
+              "mission": "Earth Observation", 
+              "satellite_type": "Microsat", 
+              "orbit_type": "LEO"  
             }, 
             {
               "name": "SPNeX", 
               "launch_date": "2025-12-10", 
               "status": "Active", 
-              "mission": "Science" 
+              "mission": "Science", 
+              "satellite_type": "Nanosat", 
+              "orbit_type": "LEO"   
             }
           ],
         "space_agency": {
@@ -450,13 +501,19 @@
               "name": "ETRSS-1",
               "launch_date": "2019-12-20",
               "status": "Active", 
-              "mission": "Earth Observation"
+              "mission": "Earth Observation", 
+              "satellite_type": "Microsat",
+              "orbit_type": "LEO", 
+              "orbit_param": [2461093.9827, 6911.4, 0.0012532, 97.7864, 138.5628, 78.4061, 281.8565]
             },
             {
               "name": "ET-SMART-RSS",
               "launch_date": "2020-12-22",
               "status": "Active", 
-              "mission": "Earth Observation"
+              "mission": "Earth Observation", 
+              "satellite_type": "Nanosat", 
+              "orbit_type": "LEO", 
+              "orbit_param": [2460248.1133, 6769.0, 0.0011124, 97.4099, 49.4656, 284.0448, 75.9612]
             }
           ]
           ,
@@ -507,7 +564,10 @@
             {
               "name": "GhanaSat-1",
               "launch_date": "2017-07-23",
-              "status": "Inactive" 
+              "status": "Inactive", 
+              "mission": "Experiemental",
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO" 
             }
           ],
         "space_agency": {
@@ -553,20 +613,27 @@
               "name": "1KUNS-PF",
               "launch_date": "2018-04-03",
               "status": "Inactive", 
-              "mission": "Experimental"
+              "mission": "Experimental", 
+              "satellite_type":"Nanosat", 
+              "orbit_type": "LEO", 
+              "orbit_param" : [2459014.2298, 6750.3, 0.0007318, 51.6123, 283.7308, 301.8476, 166.2040]
             },
             {
               "name": "WildTrackCube-SIMBA (IKUNS 3)",
               "launch_date": "2021-03-22",
               "status": "Active", 
-              "mission": "Communication"
+              "mission": "Communication", 
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO"
             },
             {
               "name": "Taifa-1",
               "launch_date": "2023-04-13",
               "status": "Inactive", 
               "mission": "Earth Observation",
-              "orbit_param": [2460371.0563, 6766.4, 0.00083, 97.332, 269.115, 114.115, 246.098]
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO",
+              "orbit_param": [2460785.1541, 6747.1, 0.0008625, 97.3044, 26.6426, 226.0197, 134.0395]
             }
           ]
           ,
@@ -678,7 +745,10 @@
               "name": "MIR-SAT 1",
               "launch_date": "2021-06-22",
               "status": "Inactive", 
-              "mission": "Experiemental"
+              "mission": "Experiemental", 
+              "satellite_type": "Nanosat", 
+              "orbit_type": "LEO", 
+              "orbit_param": [2459679.2810, 6768.9, 0.0010639, 51.6105, 244.9572, 304.5467, 55.4553]
             }
           ]
           ,
@@ -696,28 +766,35 @@
         "first_launch_year": "2011",
         "satellites_list": [
             {
+              "name": "Maroc-TUBSAT",
+              "launch_date": "2001-08-21",
+              "status": "Inactive", 
+              "mission": "Earth Observation", 
+              "satellite_type": "Microsat", 
+              "orbit_type": "LEO"
+            },
+            {
               "name": "Mohammed VI-A",
               "launch_date": "2017-11-08",
               "status": "Active", 
-              "mission": "Earth Observation"
+              "mission": "Earth Observation", 
+              "satellite_type": "Largesat",
+              "orbit_type": "LEO"
             },
             {
               "name": "Mohammed VI-B",
               "launch_date": "2018-11-21",
               "status": "Active", 
-              "mission": "Earth Observation"
-            },
-            {
-              "name": "Maroc-TUBSAT",
-              "launch_date": "2001-08-21",
-              "status": "Inactive", 
-              "mission": "Earth Observation" 
+              "mission": "Earth Observation", 
+              "satellite_type": "Largesat",
+              "orbit_type": "LEO"
             },
             {
               "name": "UM5-EOSat",
               "launch_date": "2024-08-16",
               "status": "Active", 
               "mission": "Earth Observation", 
+              "satellite_type": "Nanosat",
               "orbit_type": "LEO",
               "orbit_param": []
             }, 
@@ -726,6 +803,7 @@
               "launch_date": "2024-08-16",
               "status": "Active", 
               "mission": "Communication", 
+              "satellite_type": "Nanosat",
               "orbit_type": "LEO",
               "orbit_param": [] 
             }
@@ -790,44 +868,60 @@
             {
               "name": "NigeriaSat-1",
               "launch_date": "2003-09-26",
-              "status": "Inactive",
-              "mission": "Earth Observation"
+              "status": "Active",
+              "mission": "Earth Observation", 
+              "satellite_type": "Microsat",
+              "orbit_type": "LEO", 
+              "orbit_param": [2461093.7567, 6922.8, 0.0041545, 98.0054, 243.5530, 308.8432, 50.9079]
             },
             {
               "name": "NigComSat-1",
               "launch_date": "2007-05-12",
               "status": "Inactive",
-              "mission": "Communication"
+              "mission": "Communication", 
+              "satellite_type": "Largesat",
+              "orbit_type": "GEO"
             },
             {
               "name": "NigeriaSat-2",
               "launch_date": "2011-08-16",
               "status": "Active",
-              "mission": "Earth Observation"
+              "mission": "Earth Observation", 
+              "satellite_type": "Minisat",
+              "orbit_type": "LEO"
             },
             {
               "name": "NigeriaSat-X",
               "launch_date": "2011-08-16",
               "status": "Active",
-              "mission": "Earth Observation"
+              "mission": "Earth Observation", 
+              "satellite_type": "Microsat",
+              "orbit_type": "LEO", 
+              "orbit_param" : [2461092.4253, 7045.8, 0.0011917, 97.8465, 43.0168, 344.8731, 15.2113]
             },
             {
               "name": "NigComSat-1R",
               "launch_date": "2011-12-19",
               "status": "Active", 
-              "mission": "Communication"
+              "mission": "Communication", 
+              "satellite_type": "Largesat", 
+              "orbit_type": "GEO"
             },
             {
               "name": "NigeriaEduSat-1",
               "launch_date": "2017-06-03",
               "status": "Inactive", 
-              "mission": "Communication"              
+              "mission": "Communication", 
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO"              
             },
             {
               "name": "DELSAT-1",
               "launch_date": "2022-11-10",
               "status": "Active", 
-              "mission": "Military - Security"              
+              "mission": "Military - Security", 
+              "satellite_type": "",
+              "orbit_type": "LEO"              
             }
           ]
           ,
@@ -866,13 +960,18 @@
               "name": "RWASAT-1",
               "launch_date": "2019-09-24",
               "status": "Inactive", 
-              "mission": "Earth Observation"
+              "mission": "Earth Observation", 
+              "satellite_type": "Nanosat", 
+              "orbit_type": "LEO", 
+              "orbit_param": [2459688.0288, 6776.4, 0.0000529, 51.6043, 154.5331, 317.2258, 158.0518]
             },
             {
               "name": "Icyerekezo",
               "launch_date": "2019-02-27",
               "status": "Active", 
-              "mission": "Communication"
+              "mission": "Communication", 
+              "satellite_type": "Minisat",
+              "orbit_type": "LEO"
             }
           ]
           ,
@@ -907,6 +1006,7 @@
                 "launch_date": "2024-08-16",
                 "status": "Active",
                 "mission": "Earth Observation", 
+                "satellite_type": "Nanosat",
                 "orbit_type": "LEO",
                 "orbit_param": [2460601.419444444, 6862.8, 0.00079, 97.430, 82.38, 25.291, 334.871]
             }
@@ -967,79 +1067,105 @@
               "name": "SUNSAT",
               "launch_date": "1999-02-23",
               "status": "Inactive", 
-              "mission": "Earth Observation" 
+              "mission": "Earth Observation", 
+              "satellite_type": "Microsat", 
+              "orbit_type": "LEO" 
             },
             {
               "name": "SumbandilaSat",
               "launch_date": "2009-09-18",
               "status": "Inactive", 
-              "mission": "Earth Observation" 
+              "mission": "Earth Observation", 
+              "satellite_type": "Microsat", 
+              "orbit_type": "LEO"  
             },
             {
               "name": "ZACUBE-1",
               "launch_date": "2013-11-21",
               "status": "Active", 
-              "mission": "Communication" 
+              "mission": "Communication", 
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO"  
             },
             {
               "name": "KONDOR-E",
               "launch_date": "2014-12-19",
               "status": "Inactive", 
-              "mission": "Earth Observation"               
+              "mission": "Earth Observation", 
+              "satellite_type": "Largesat",
+              "orbit_type": "LEO"                 
             },
             {
               "name": "NSIGHT",
               "launch_date": "2017-04-18",
               "status": "Inactive", 
-              "mission": "Science - Experimental" 
+              "mission": "Science - Experimental", 
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO"   
             },
              {
               "name": "ZA-AEROSAT",
               "launch_date": "2017-04-18",
               "status": "Inactive", 
-              "mission": "Experiemental" 
+              "mission": "Science - Experimental", 
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO"   
             },
             {
               "name": "ZA-CUBE-2",
               "launch_date": "2018-12-27",
               "status": "Inactive", 
-              "mission": "Experiemental" 
+              "mission": "Experiemental", 
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO" 
             },
             {
               "name": "MDASAT-1A",
               "launch_date": "2022-01-13",
               "status": "Inactive",
-              "mission": "Communication" 
+              "mission": "Communication", 
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO"  
             },
             {
               "name": "MDASAT-1B",
               "launch_date": "2022-01-13",
               "status": "Inactive",
-              "mission": "Communication" 
+              "mission": "Communication", 
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO"  
             },
             {
               "name": "MDASAT-1C",
               "launch_date": "2022-01-13",
               "status": "Inactive",
-              "mission": "Communication" 
+              "mission": "Communication", 
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO"   
             },
             {
-              "name": "EOSSAT-1",
+              "name": "EOS SAT-1",
               "launch_date": "2023-01-03",
               "status": "Active",
-              "mission": "Earth Observation" 
+              "mission": "Earth Observation", 
+              "satellite_type": "Minisat",
+              "orbit_type": "LEO"   
             },
             {
               "name": "Platform 2",
               "launch_date": "2023-01-03",
               "status": "Inactive",
-              "mission": "Experiemental" 
+              "mission": "Experiemental", 
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO"
             },
             {
               "name": "XinaBox ThinSat",
               "launch_date": "2023-04-17",
               "status": "Inactive",
-              "mission": "Educational" 
+              "mission": "Educational", 
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO" 
             }
           ],
         "space_agency": {
@@ -1072,7 +1198,10 @@
               "name": "SRSS-1",
               "launch_date": "2019-11-03",
               "status": "Active", 
-              "mission": "Earth Observation"
+              "mission": "Earth Observation", 
+              "satellite_type": "Microsat", 
+              "orbit_type": "LEO", 
+              "orbit_param": [2460283.1951, 6756.2, 0.0011386, 97.3623, 69.3484, 287.7335, 72.2723]
             }
           ],
         "space_agency": {
@@ -1122,8 +1251,11 @@
             {
               "name": "Challenge-1",
               "launch_date": "2021-03-22",
-              "status": "Active", 
-              "mission": "Communication"
+              "status": "Inactive", 
+              "mission": "Communication", 
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO", 
+              "orbit_param": [2460787.4666, 6778.5, 0.0008324, 97.3977, 30.6885, 199.7487, 160.3487]
             }
           ]
           ,
@@ -1144,7 +1276,10 @@
               "name": "PearlAfricaSat-1",
               "launch_date": "2022-11-07",
               "status": "Inactive", 
-              "mission": "Earth Observation"
+              "mission": "Earth Observation",
+              "satellite_type": "Nanosat",
+              "orbit_type": "LEO", 
+              "orbit_param": [2460048.1242, 6789.1, 0.0012583, 51.6192, 221.0168, 325.3480, 165.6837]
             }
           ],
         "space_agency": {
@@ -1178,14 +1313,18 @@
                 "launch_date": "2022-11-07",
                 "status": "Active", 
                 "mission": "Earth Observation", 
-                "orbit_param": [ ]
+                "satellite_type": "Nanosat",
+                "orbit_type": "LEO",
+                "orbit_param": [2460066.5894, 6762.0, 0.0003347, 51.6124, 126.0402, 325.5949, 151.9137]
             },
             {
                 "name": "ZIMSAT-2",
                 "launch_date": "2024-11-05",
-                "status": "Active",
+                "status": "Inactive",
                 "mission": "Earth Observation", 
-                "orbit_param": [2459999.06354, 6863.2, 0.002, 97.376, 233.505, 34.797, 325.457]
+                "satellite_type": "Nanosat",
+                "orbit_type": "LEO",
+                "orbit_param": [2461060.5302, 6773.4, 0.0001295, 97.2775, 260.7788, 180.7662, 179.3634]
             }            
         ],
         "space_agency": {

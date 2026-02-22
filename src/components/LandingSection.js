@@ -43,7 +43,7 @@ const LandingSection = () => {
         {/* Explore Button */}
         <a
           href="#map-section"
-          className="text-lg px-10 py-2 rounded-full bg-[#D64045] hover:bg-sky-500 transition-colors"
+          className="text-lg px-10 py-2 rounded-full bg-[#D64045] hover:bg-[#2D5BD2] transition-colors"
         >
           EXPLORE
         </a>
@@ -60,6 +60,12 @@ const LandingSection = () => {
               <CountUp start={0} end={totalSats} duration={7} />
             </span>
             <p className="text-md font-medium">Satellites lunched in Orbit</p>
+          </div>
+          <div className="text-center">
+            <span className="text-4xl md:text-5xl font-extrabold text-blue-600">
+              <CountUp start={0} end={2} duration={7} />
+            </span>
+            <p className="text-md font-medium">And Panafrican Satellites</p>
           </div>
         </div>
 

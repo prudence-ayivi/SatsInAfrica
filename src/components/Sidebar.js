@@ -103,8 +103,10 @@ const Sidebar = () => {
                 agency. 
               </p>
               <p>              
-                Efforts will me made to keep the information as up to date as possible, especially
-                by considering the most recent space activities in Africa.
+                The project is maintained by volunteers and is updated regularly to reflect the most recent space activities in Africa
+              </p>
+              <p>              
+                The project Github is available : <a href="https://github.com/prudence-ayivi/SatsInAfrica" target="_blank" rel="noopener noreferrer" className=" font-bold text-[#2D5BD2] underline">Here</a> 
               </p>
             </div>
           ) : (

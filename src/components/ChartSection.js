@@ -5,6 +5,8 @@ import SatelliteLaunchesChart from './Chart/SatelliteLaunchesChart';
 import CountryAgency from './Chart/CountryAgency';
 import CountriesBySatelliteRangeChart from './Chart/CountriesBySatelliteRangeChart';
 import ActiveVsInactiveSats from './Chart/ActiveVsInactiveSats';
+import SatelliteTypeChart from './Chart/SatelliteTypeChart';
+import OrbitDistribution from './Chart/OrbitDistribution';
 import { CgArrowDownR } from "react-icons/cg";
 import SatelliteList from './SatelliteList'
 import countryData from '../utils/countries_complete.json';
@@ -71,6 +73,12 @@ const ChartSection = () => {
         </div>
         <div className="bg-zinc-100 shadow-md p-2 rounded-md flex items-center justify-center">
           <ActiveVsInactiveSats data={satelliteData} />
+        </div>
+        <div className="bg-zinc-100 shadow-md p-2 rounded-md flex items-center justify-center">
+          <SatelliteTypeChart data={data} />
+        </div>
+        <div className="bg-zinc-100 shadow-md p-2 rounded-md flex items-center justify-center">
+          <OrbitDistribution data={data} />
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ The project is built using the following technologies:
 
 * **React.js** – Frontend development and UI structure
 * **JavaScript (ES6+)** – Core logic and data processing
-* **Recharts** – Statistical charts and data visualization
+* **reac-chartjs-2** – Statistical charts and data visualization
 * **React Simple Maps** – Interactive world map display
 * **SpaceKit** – 3D Earth and orbital simulation engine
 
@@ -53,10 +53,12 @@ The platform includes several visual tools:
 * Pie charts (e.g., countries with space agencies vs. without)
 * Bar charts (number of satellites per country)
 * Grouped ranges to reflect satellite distribution levels (1, 2–3, 4-5, 6–8, 9-10, 11–20)
+* Doughnut chart for **satellite size** distribution (Nano-satellites, Micro-satellites, Mini-satellites, Larger classes)
+* A chart comparing satellite distribution by **orbit type** (LEO, MEO, GEO)
 
 Charts are structured to highlight global disparities and the evolution of space activity among different african nations.
 
----
+--- 
 
 ## Map Limitations
 
@@ -68,28 +70,11 @@ Some small island nations (such as Mauritius) may not appear clearly due to geog
 
 The project remains open to expansion and technical improvements include:
 
-### 1. 3D Visualization Expansion
+### 3D Visualization Expansion
 
 * Add **all available satellites** to the 3D visualization.
 * Implement filtering satellites by country.
 
-### 2. Satellite Type Analysis
-
-* Add a chart showing the **ratio by satellite category**:
-
-  * Nano-satellites
-  * Micro-satellites
-  * Mini-satellites
-  * Larger classes
-
-### 3. Orbital Distribution Analysis
-
-* Add a chart comparing satellite distribution by **orbit type**:
-
-  * LEO
-  * MEO
-  * GEO
-  * Other orbital classifications
 
 ---
 

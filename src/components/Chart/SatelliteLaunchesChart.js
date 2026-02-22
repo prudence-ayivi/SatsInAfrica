@@ -19,7 +19,7 @@ const SatelliteLaunchesChart = ({ data }) => {
         label: "Number of launches",
         data: Object.values(yearLaunches),
         borderColor: "#D64045",
-        backgroundColor: "rgba(75, 192, 192, 0.2)",
+        backgroundColor: "#D7DFF2",
         borderWidth: 1,
       },
     ],
