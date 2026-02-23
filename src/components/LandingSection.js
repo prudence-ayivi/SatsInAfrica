@@ -65,7 +65,7 @@ const LandingSection = () => {
             <span className="text-4xl md:text-5xl font-extrabold text-blue-600">
               <CountUp start={0} end={2} duration={7} />
             </span>
-            <p className="text-md font-medium">And Panafrican Satellites</p>
+            <p className="text-md font-medium">Panafrican Satellites</p>
           </div>
         </div>
 

@@ -85,7 +85,7 @@ const SatelliteTypeDonut = ({ data }) => {
           <span> Microsat: 10–100 kg </span> |
           <span> Minisat (SmallSats) : 100–500 kg </span> |
           <span> Mediumsat : 500–1000 kg </span> |
-          <span> Largesat : &gt; 1000 kg </span>
+          <span> Largesat &gt; 1000 kg </span>
         </p>
       </div>
     </div>

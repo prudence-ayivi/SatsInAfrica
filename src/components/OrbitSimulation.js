@@ -34,7 +34,7 @@ const OrbitSimulation = () => {
       },
       rotation: {
         enable: true,
-        speed: 0.35,
+        speed: 0.2,
       },
     });
 
@@ -66,7 +66,7 @@ const OrbitSimulation = () => {
               },
               "deg"
             ),
-            particleSize: 30,
+            particleSize: 25,
             scale: [0.5, 0.5, 0.5],
             orbitPathSettings: {
               leadDurationYears: 0.2,
