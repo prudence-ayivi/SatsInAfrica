@@ -34,7 +34,7 @@ const OrbitSimulation = () => {
       },
       rotation: {
         enable: true,
-        speed: 0.2,
+        speed: 0.3,
       },
     });
 

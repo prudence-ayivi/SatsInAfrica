@@ -1004,7 +1004,7 @@
             {
                 "name": "GaindeSat-1A",
                 "launch_date": "2024-08-16",
-                "status": "Active",
+                "status": "Inactive",
                 "mission": "Earth Observation", 
                 "satellite_type": "Nanosat",
                 "orbit_type": "LEO",
@@ -1012,11 +1012,16 @@
             }
         ],
         "space_agency": {
-            "name": "Senegalese Space Agency (ASES)",
+            "name": "Agence Sénégalaise d'Etudes Spatiales (ASES)",
             "creation_date": "2023",
             "budget": ""
         },
-        "space_projects": []
+        "space_projects": [
+            {
+                "project_name": "GaindeSat-1B",
+                "status": "In progress"
+            }
+        ]
     },
     {
         "country": "Seychelles",
@@ -1090,7 +1095,7 @@
             {
               "name": "KONDOR-E",
               "launch_date": "2014-12-19",
-              "status": "Inactive", 
+              "status": "Inactive",
               "mission": "Earth Observation", 
               "satellite_type": "Largesat",
               "orbit_type": "LEO"                 
