@@ -113,7 +113,12 @@
             "creation_date": "2013",
             "budget": "$20 million"
         },
-        "space_projects": []
+        "space_projects": [
+             {
+                "project_name": "ANGEO-1",
+                "status": "In progress"
+            }
+        ]
     },
     {
         "country": "Benin",
@@ -932,7 +937,7 @@
         },
         "space_projects": [
             {
-                "project_name": "Communication Satellite Expansion",
+                "project_name": "NigComSat-2A and NigComSat-2B",
                 "status": "In progress"
             }
         ]
